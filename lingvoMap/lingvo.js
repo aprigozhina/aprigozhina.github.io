@@ -5,7 +5,7 @@ var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 }).addTo(myMap);
 
-let lingvoData = 'https://github.com/aprigozhina/aprigozhina.github.io/blob/master/lingvoMap/lingvoMap.geojson'
+let lingvoData = 'https://aprigozhina.github.io/lingvoMap/lingvoMap.geojson'
 jQuery.getJSON(lingvoData, function (data) {
   L.geoJSON(data).addTo(myMap)
 })
