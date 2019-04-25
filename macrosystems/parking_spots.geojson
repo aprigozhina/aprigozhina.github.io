@@ -1,0 +1,181 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.28305099999994,
+          34.122392000000048,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Name" : "Park here for GP SE",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.30729899999994,
+          34.117289000000028,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Name" : "Park here for GP S",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.19467199999997,
+          34.092211000000077,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Name" : "Park here for Debs Park",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.33927799999998,
+          34.143680000000074,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Name" : "Park here for GP NW?",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.38738899999998,
+          33.755322000000035,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "Name" : "Park here for Palos Verdes",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.83231399999994,
+          34.059725000000071,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Name" : "Parking location tbd for Trancas Canyon",
+        "Type" : "Reference"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.65690399999994,
+          34.093888000000049,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Name" : "Park here for Stunt Ranch",
+        "Type" : "Reference"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.87691399999994,
+          34.061008000000072,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Name" : "Park here for Charmlee Wilderness",
+        "Type" : "Reference"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.74747299999996,
+          34.037883000000079,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Name" : "Park here for Solstice Canyon",
+        "Type" : "Reference"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.80014199999999,
+          34.034257000000025,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Name" : "Parking tbd for Kanan Dume",
+        "Type" : "Reference"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.84071899999998,
+            34.061645000000055,
+            0
+          ],
+          [
+            -118.84137199999998,
+            34.060965000000067,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Name" : "1",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00094276667314030841
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.84247699999997,
+            34.062314000000072,
+            0
+          ],
+          [
+            -118.84322399999996,
+            34.061739000000046,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Name" : "2",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00094267385665188679
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.84007899999995,
+            34.061533000000054,
+            0
+          ],
+          [
+            -118.84087699999998,
+            34.060956000000033,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Name" : "3",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00098475022217557519
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.84112099999999,
+            34.06193200000007,
+            0
+          ],
+          [
+            -118.84186699999998,
+            34.061253000000079,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Name" : "4",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0010087403035352431
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.65729299999998,
+            34.097797000000071,
+            0
+          ],
+          [
+            -118.65697799999998,
+            34.098731000000043,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "Name" : "1",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00098568808451196684
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.65661799999998,
+            34.098590000000058,
+            0
+          ],
+          [
+            -118.65692099999995,
+            34.097766000000036,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Name" : "2",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00087794362007010838
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.65605099999999,
+            34.098850000000027,
+            0
+          ],
+          [
+            -118.65655599999997,
+            34.098054000000047,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Name" : "3",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00094267756944947537
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.65620199999995,
+            34.098281000000043,
+            0
+          ],
+          [
+            -118.65518999999995,
+            34.098450000000071,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Name" : "4",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0010260141324637561
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.87788999999998,
+            34.059270000000026,
+            0
+          ],
+          [
+            -118.87802799999997,
+            34.058349000000078,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Name" : "1",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00093128137525829834
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.87813799999998,
+            34.059219000000041,
+            0
+          ],
+          [
+            -118.87831799999998,
+            34.058325000000025,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Name" : "2",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00091194078756780717
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.87757099999999,
+            34.059268000000031,
+            0
+          ],
+          [
+            -118.87766299999998,
+            34.058372000000077,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "Name" : "3",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00090071083035452579
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.87858899999998,
+            34.058394000000078,
+            0
+          ],
+          [
+            -118.87838599999998,
+            34.059297000000072,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "Name" : "4",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00092553660110693053
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.74992999999995,
+            34.041807000000063,
+            0
+          ],
+          [
+            -118.74878699999999,
+            34.041463000000078,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "Name" : "1",
+        "Type" : "Reference",
+        "Shape_Length" : 0.001193643581597687
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.74953699999998,
+            34.042230000000075,
+            0
+          ],
+          [
+            -118.74831199999994,
+            34.042011000000059,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "Name" : "2",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0012444219541976175
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.75036499999999,
+            34.041655000000048,
+            0
+          ],
+          [
+            -118.74924299999998,
+            34.041323000000034,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "Name" : "3",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0011700888855256516
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.74975699999999,
+            34.041145000000029,
+            0
+          ],
+          [
+            -118.75081299999999,
+            34.041319000000044,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "Name" : "4",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0010702392256019132
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.80332699999997,
+            34.035858000000076,
+            0
+          ],
+          [
+            -118.80407799999995,
+            34.035249000000078,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "Name" : "1",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00096689296200052743
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.80311999999998,
+            34.035622000000046,
+            0
+          ],
+          [
+            -118.80384499999997,
+            34.035048000000074,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "Name" : "2",
+        "Type" : "Reference",
+        "Shape_Length" : 0.00092471671335122728
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.80297699999994,
+            34.035409000000072,
+            0
+          ],
+          [
+            -118.80375899999996,
+            34.034680000000037,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "Name" : "3",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0010690954120541134
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.80268499999994,
+            34.035127000000045,
+            0
+          ],
+          [
+            -118.80348399999997,
+            34.034443000000067,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "Name" : "4",
+        "Type" : "Reference",
+        "Shape_Length" : 0.0010517875260797121
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.27825899999999,
+            34.121908000000076,
+            0
+          ],
+          [
+            -118.27926899999994,
+            34.122277000000054,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "Name" : "1",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0010752957732107448
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.27834499999994,
+            34.121691000000055,
+            0
+          ],
+          [
+            -118.27934699999997,
+            34.122046000000068,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "Name" : "2",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0010630282216694826
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.28064799999999,
+            34.122353000000032,
+            0
+          ],
+          [
+            -118.27966799999996,
+            34.121950000000027,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "Name" : "3",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0010596268211295996
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.27993799999996,
+            34.121796000000074,
+            0
+          ],
+          [
+            -118.28084499999994,
+            34.122200000000078,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "Name" : "4",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00099290734712416612
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.30749699999996,
+            34.117693000000031,
+            0
+          ],
+          [
+            -118.30736699999994,
+            34.118636000000038,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "Name" : "1",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00095191858896427899
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.30764699999997,
+            34.117721000000074,
+            0
+          ],
+          [
+            -118.30754899999999,
+            34.118576000000076,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "Name" : "2",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00086059804787045257
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.30719599999998,
+            34.118646000000069,
+            0
+          ],
+          [
+            -118.30734699999999,
+            34.117720000000077,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "Name" : "3",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0009382307818396441
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.30779099999995,
+            34.117707000000053,
+            0
+          ],
+          [
+            -118.30768199999994,
+            34.11854500000004,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "Name" : "4",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00084505916951474393
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.19292499999995,
+            34.095067000000029,
+            0
+          ],
+          [
+            -118.19281299999994,
+            34.09596300000004,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "Name" : "1",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00090297286782108164
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.19323099999997,
+            34.095120000000065,
+            0
+          ],
+          [
+            -118.19312799999994,
+            34.095986000000039,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "Name" : "2",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00087210377820490551
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.19348699999995,
+            34.096046000000058,
+            0
+          ],
+          [
+            -118.19354199999998,
+            34.095177000000035,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "Name" : "3",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00087073876682001918
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.19379499999997,
+            34.09610200000003,
+            0
+          ],
+          [
+            -118.19385499999999,
+            34.095206000000076,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "Name" : "4",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00089800668144570457
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.33864999999997,
+            34.143935000000056,
+            0
+          ],
+          [
+            -118.33787799999999,
+            34.143319000000076,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "Name" : "1",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00098764366041067305
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.33828199999999,
+            34.143071000000077,
+            0
+          ],
+          [
+            -118.33881399999996,
+            34.143837000000076,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "Name" : "2",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00093261996545214779
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.33856299999997,
+            34.14278900000005,
+            0
+          ],
+          [
+            -118.33893199999994,
+            34.143602000000044,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "Name" : "3",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0008928213706971143
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.33803999999998,
+            34.141985000000034,
+            0
+          ],
+          [
+            -118.33835699999997,
+            34.142903000000047,
+            0
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "Name" : "4",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0009711915362176091
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.38696599999997,
+            33.751716000000044,
+            212.22999999999593
+          ],
+          [
+            -118.38752099999999,
+            33.750886000000037,
+            194.11999999999534
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "Name" : "1",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00099846131624351897
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.38724699999995,
+            33.75073100000003,
+            188.27999999999884
+          ],
+          [
+            -118.38668099999995,
+            33.751543000000026,
+            208.85000000000582
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "Name" : "2",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00098979795917396849
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.38639699999999,
+            33.751448000000039,
+            204.02999999999884
+          ],
+          [
+            -118.38700399999999,
+            33.750614000000041,
+            185.67999999999302
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "Name" : "3",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.0010315061803007548
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -118.38723499999998,
+            33.751818000000071,
+            216.97999999999593
+          ],
+          [
+            -118.38774099999995,
+            33.75102000000004,
+            200.02999999999884
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "Name" : "4",
+        "Type" : "Interstitial",
+        "Shape_Length" : 0.00094490211134442322
+      }
+    }
+  ]
+}
