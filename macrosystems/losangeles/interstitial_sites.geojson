@@ -1,0 +1,96 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.27968699999997,
+          34.12220300000007,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 1,
+        "Name" : "Griffith Park SE",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.30753999999996,
+          34.118831000000057,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 3,
+        "Name" : "Griffith Park S",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.19341499999996,
+          34.095733000000052,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 5,
+        "Name" : "Debs Park",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.33787999999998,
+          34.142698000000053,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 7,
+        "Name" : "Griffith Park NW",
+        "Type" : "Interstitial"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.38710999999995,
+          33.751242000000047,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 9,
+        "Name" : "Palos Verdes Hills",
+        "Type" : "Interstitial"
+      }
+    }
+  ]
+}

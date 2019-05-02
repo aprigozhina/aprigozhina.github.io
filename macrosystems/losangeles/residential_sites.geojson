@@ -1,0 +1,315 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52440848199996,
+          34.18460976800003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Name" : "Bertrand Ave (HL1)",
+        "ZIP" : 91316,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, fertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56869661899998,
+          34.248459103000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "Name" : "Lubao Ave (HL2)",
+        "ZIP" : 91311,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, fertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42873215399999,
+          34.182123009000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "Name" : "Delano St (HL3)",
+        "ZIP" : 91401,
+        "Nomber_lawns" : "front",
+        "Yard_type" : "Lawn, fertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56691666699999,
+          34.247888889000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "Name" : "Oakdale Ave (HL4)",
+        "ZIP" : 91311,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, fertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42908333299999,
+          34.174611111000047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "Name" : "Ventura Ave (LL1)",
+        "ZIP" : 91401,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, unfertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42799999999994,
+          34.173944444000028
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "Name" : "Allott Ave (LL2)",
+        "ZIP" : 91401,
+        "Nomber_lawns" : "front",
+        "Yard_type" : "Lawn, unfertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.47927777799998,
+          34.160888889000034
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "Name" : "Gloria Ave (LL3)",
+        "ZIP" : 91436,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, unfertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52511111099994,
+          34.18300000000005
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "Name" : "Delano St (LL4)",
+        "ZIP" : 91316,
+        "Nomber_lawns" : "front, back",
+        "Yard_type" : "Lawn, unfertilized",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.55108333299995,
+          34.271722222000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "Name" : "Baton Ave (WF1)",
+        "ZIP" : 91326,
+        "Nomber_lawns" : "back",
+        "Yard_type" : "Wildlife Certified",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.45205555599995,
+          34.174055556000042
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "Name" : "Tobias Ave (WF2)",
+        "ZIP" : 91411,
+        "Nomber_lawns" : "back",
+        "Yard_type" : "Wildlife Certified",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56602777799998,
+          34.246861111000044
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "Name" : "Needles St (WF3)",
+        "ZIP" : 91311,
+        "Nomber_lawns" : "none (1 astroturf)",
+        "Yard_type" : "Wildlife Certified",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.51205555599995,
+          34.195638889000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "Name" : "Andasol Ave (WF4)",
+        "ZIP" : 91406,
+        "Nomber_lawns" : "back",
+        "Yard_type" : "Wildlife Certified",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.51919444399999,
+          34.195416667000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "Name" : "White Oak (XS1)",
+        "ZIP" : 91335,
+        "Nomber_lawns" : "back",
+        "Yard_type" : "Xeriscape",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56063888899996,
+          34.200527778000037
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "Name" : "Enadia Way (XS2)",
+        "ZIP" : 91335,
+        "Nomber_lawns" : "none",
+        "Yard_type" : "Xeriscape",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.46074999999996,
+          34.17677777800003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "Name" : "Norwich Ave (XS3)",
+        "ZIP" : 91411,
+        "Nomber_lawns" : "none",
+        "Yard_type" : "Xeriscape",
+        "Type" : "Residential"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52352777799996,
+          34.210666667000055
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "Name" : "Hatton Pl (XS4)",
+        "ZIP" : 91335,
+        "Nomber_lawns" : "none",
+        "Yard_type" : "Xeriscape",
+        "Type" : "Residential"
+      }
+    }
+  ]
+}
