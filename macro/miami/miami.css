@@ -1,0 +1,27 @@
+#miami_sites {
+  height: 600px;
+  text-align: left
+}
+
+#miami_parking {
+  height: 600px
+}
+
+body {
+  padding-top: 3.5rem
+}
+
+.starter-template {
+  padding: 1rem 1rem;
+  text-align: center
+}
+
+.navbar {
+  height: 65px
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic
+}
