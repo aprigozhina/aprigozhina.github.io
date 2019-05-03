@@ -1,4 +1,6 @@
-let myMap = L.map('losangeles_sites').setView([34.0, -118.3], 10)
+//  MAP 1
+
+let myMap = L.map('losangeles_sites').setView([34.0, -118.35], 10)
 
 // Basemap tiles
 let openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,6 +15,8 @@ let esriWorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/
 }).addTo(myMap);
 
 let incomeLAGroup = L.layerGroup().addTo(myMap)
+let plotsGroup = L.layerGroup().addTo(myMap)
+
 
 // Add Income data GeoJSON
 let income_LA = 'https://aprigozhina.github.io/macrosystems/losangeles/income_LA.geojson'
@@ -35,41 +39,121 @@ jQuery.getJSON(income_LA, function (data){
 		}
 				let incomeOptions = {
 					style: tractStyle,
-		  		onEachFeature: onEachFeature
+		  		onEachFeature: incomePopUp
 		 		}
-L.geoJSON(data, incomeOptions).addTo(myMap)
+				L.geoJSON(data, incomeOptions).addTo(myMap)
 })
-// Add GeoJSON data
-// let stateDemographicsUrl = 'https://geog4046.github.io/portfolio/data/us_state_demographics_ESRI_2010A.geojson'
-// jQuery.getJSON(stateDemographicsUrl, function (data) {
-// 	let stateStyle = function (feature) { // this function returns an object
-// 		let males = feature.properties.MALES
-// 		let females = feature.properties.FEMALES
-// 			let genderComposition = males / females * 100
-// 			let stateColor = '#bdc9e1'
-// 				if ( genderComposition < 100 ) {stateColor = '#67a9cf'}
-// 				if ( genderComposition < 97 ) { stateColor = '#02818a' }
-// 						return {
-// 							fillColor: stateColor,
-// 							color: stateColor, //use the color variable above for the value
-// 						 	weight: 1,
-// 						 	fillOpacity: 0.4,
-// 						 	dashArray: '3'
-// 						}
-// 		}
-// 				let stateGeojsonOptions = {
-// 					style: stateStyle,
-// 		  		onEachFeature: onEachFeature
-// 		 		}
-// 	L.geoJSON(data, stateGeojsonOptions).addTo(myMap)
-// })
 
-// add pop-ups
-let onEachFeature = function (feature, layer) {
+// add Income pop-ups
+let incomePopUp = function (feature, layer) {
 			let householdMedianIncome = feature.properties.Households_Median_income
-			 	layer.bindPopup('Median Households Income:' + householdMedianIncome)
+			 	layer.bindPopup('Median Households Income: ' + householdMedianIncome)
 		incomeLAGroup.addLayer(layer)
  }
+
+
+// Add Redidential Sites GeoJSON
+let residentialSites = 'https://aprigozhina.github.io/macrosystems/losangeles/residential_sites.geojson'
+jQuery.getJSON(residentialSites, function (data){
+	residentialPoints = L.geoJson(data, {
+		onEachFeature: residentialPopUp,
+		 pointToLayer: function(feature,latlng){
+			 var colors
+			 return L.circleMarker(latlng, {
+				 radius: 7,
+				 fillColor: '#045a8d',
+				 color: '#045a8d',
+				 weight: 1,
+				 opacity: 1,
+				 fillOpacity: 0.7,
+				 clickable: true
+			 });
+		 }
+ }).addTo(myMap)
+})
+
+// add pop-ups
+let residentialPopUp = function (feature, layer) {
+		 let residentialType = feature.properties.Type
+		 let residentialName = feature.properties.Name
+		 let residentialZIP = feature.properties.ZIP
+		 let residentialLawns = feature.properties.Nomber_lawns
+		 let residentialYard = feature.properties.Yard_type
+			 layer.bindPopup(
+				 '<b>Plot type: </b>' + residentialType +
+				 '<br><b>Name: </b>' + residentialName +
+				 '<br><b>ZIP code: </b>' + residentialZIP +
+				 '<br><b>Number of lawns: </b>' + residentialLawns +
+				 '<br><b>Yard type: </b>' + residentialYard)
+	 plotsGroup.addLayer(layer)
+ }
+
+
+// Add Inderstitial Sites GeoJSON
+let interstitialSites = 'https://aprigozhina.github.io/macrosystems/losangeles/interstitial_sites.geojson'
+jQuery.getJSON(interstitialSites, function (data){
+	interstitialPoints = L.geoJson(data, {
+		onEachFeature: interstitialPopUp,
+		 pointToLayer: function(feature,latlng){
+			 var colors
+			 return L.circleMarker(latlng, {
+				 radius: 7,
+				 fillColor: '#31a354',
+				 color: '#31a354',
+				 weight: 1,
+				 opacity: 1,
+				 fillOpacity: 0.7,
+				 clickable: true
+			 });
+		 }
+ }).addTo(myMap)
+})
+
+// add pop-ups
+let interstitialPopUp = function (feature, layer) {
+		 let interstitialType = feature.properties.Type
+		 let interstitialName = feature.properties.Name
+			 layer.bindPopup(
+				 '<b>Plot type: </b>' + interstitialType +
+				 '<br><b>Name: </b>' + interstitialName
+				)
+	 plotsGroup.addLayer(layer)
+ }
+
+ // Add Reference Sites GeoJSON
+ let referenceSites = 'https://aprigozhina.github.io/macrosystems/losangeles/reference_sites.geojson'
+ jQuery.getJSON(referenceSites, function (data){
+ 	referencePoints = L.geoJson(data, {
+ 		onEachFeature: referencePopUp,
+ 		 pointToLayer: function(feature,latlng){
+ 			 var colors
+ 			 return L.circleMarker(latlng, {
+ 				 radius: 7,
+ 				 fillColor: '#810f7c',
+ 				 color: '#810f7c',
+ 				 weight: 1,
+ 				 opacity: 1,
+ 				 fillOpacity: 0.7,
+ 				 clickable: true
+ 			 });
+ 		 }
+  }).addTo(myMap)
+ })
+
+ // add pop-ups
+ let referencePopUp = function (feature, layer) {
+ 		 let referenceType = feature.properties.Type
+ 		 let referenceName = feature.properties.Name
+ 			 layer.bindPopup(
+ 				 '<b>Plot type: </b>' + referenceType +
+ 				 '<br><b>Name: </b>' + referenceName
+ 				)
+ 	 plotsGroup.addLayer(layer)
+  }
+
+
+
+
 
 // add layer control
 let basemaps = {
@@ -79,7 +163,53 @@ let basemaps = {
 }
 
 let layers = {
-  'Median Income': incomeLAGroup
-}
+	'Median Income': incomeLAGroup,
+	'Experimental Plots': plotsGroup
+  }
 
 L.control.layers(basemaps, layers).addTo(myMap)
+
+
+
+//  MAP 2
+
+let pMap = L.map('losangeles_parking').setView([34.0, -118.35], 10)
+
+// Basemap tiles
+let openStreetMap2 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(pMap)
+
+let parkingGroup = L.layerGroup().addTo(pMap)
+
+// Add Parking locations GeoJSON
+let parkingSpots = 'https://aprigozhina.github.io/macrosystems/losangeles/parking_spots.geojson'
+jQuery.getJSON(parkingSpots, function (data){
+	parkingPoints = L.geoJson(data, {
+		onEachFeature: parkingPopUp,
+		 pointToLayer: function(feature,latlng){
+			 var colors
+			 return L.circleMarker(latlng, {
+				 radius: 7,
+				 fillColor: '#045a8d',
+				 color: '#045a8d',
+				 weight: 1,
+				 opacity: 1,
+				 fillOpacity: 0.7,
+				 clickable: true
+			 });
+		 }
+ }).addTo(pMap)
+})
+
+// add pop-ups
+let parkingPopUp = function (feature, layer) {
+		 let parkingType = feature.properties.Type
+		 let parkingName = feature.properties.Name
+			 layer.bindPopup(
+				 '<b>Plot type: </b>' + parkingType +
+				 '<br><b>Name: </b>' + parkingName
+				)
+	parkingGroup.addLayer(layer)
+ }

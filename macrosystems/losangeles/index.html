@@ -51,17 +51,65 @@
    <main role="main" class="container">
      <div class="starter-template">
        <h1>Los Angeles</h1>
-       <p class="lead">Maps of Los Angeles county for "Alternative futures for the American Residential Macrosystem" project</p>
+       <p class="lead">Maps of Los Angeles County for "Alternative futures for the American Residential Macrosystem" project</p>
      </div>
      <div class="starter-template">
        <h2>Experimental Plots</h2>
        <p class="lead">Locations of residential, interstitial, and reference plots</p>
           <div id="losangeles_sites" class="shadow p-3 mb-5 bg-white rounded"></div>
-       <div class="starter-template">
+              <div class="legend">
+                <table>
+                  Median Households Income, US Dollars, 2017
+                  <thead class="tablehead">
+                  <tr>
+                    <th scope="col">Color</th>
+                    <th scope="col">Income Range</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td class="color0"></td>
+                    <td class="legendrow">No income / No population</td>
+                  </tr>
+                  <tr>
+                    <td class="color50"></td>
+                    <td class="legendrow">less than 50,000</td>
+                  </tr>
+                  <tr>
+                    <td class="color100"></td>
+                    <td class="legendrow">from 50,000 to 99,999</td>
+                  </tr>
+                  <tr>
+                    <td class="color150"></td>
+                    <td class="legendrow">from 100,000 to 149,999</td>
+                  </tr>
+                  <tr>
+                    <td class="color200"></td>
+                    <td class="legendrow">from 150,000 to 199,999</td>
+                  </tr>
+                  <tr>
+                    <td class="color250"></td>
+                    <td class="legendrow">from 200,000 to 249,999</td>
+                  </tr>
+                  <tr>
+                    <td class="color300"></td>
+                    <td class="legendrow">250,000 and more</td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+    </div>
+    <div class="starter-template">
          <h2>Fieldwork management</h2>
-        <p class="lead">Recommended parking spots</p>
+        <p class="lead">Recommended parking spots to access the experimental plots</p>
           <div id="losangeles_parking" class="shadow p-3 mb-5 bg-white rounded"></div>
-      </div>
+    </div>
+    <!-- Weather forecast -->
+    <div class="starter-template">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles-county/?unit=us" data-label_1="LOS ANGELES COUNTY" data-label_2="weather forecast" data-theme="weather_one" >LOS ANGELES COUNTY WEATHER</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+      </script>
     </div>
     </main>
 
@@ -74,13 +122,10 @@
     <!-- Leaflet library -->
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
     <script src="losangeles.js"> </script>
-    <div id="legend">
-      <br>
-      The <span style="color: #bdc9e1; font-weight: bold">lighter blue</span> color shows states with the males to females ratio less than 97% (country average);<br>
-      The <span style="color: #67a9cf; font-weight: bold">medium blue</span> color shows states with the ratio from 97% to 100%;<br>
-      The <span style="color: #02818a; font-weight: bold">darker blue</span> color shows states with the ratio higher than 100%.<p></p>
-    </div>
-    <div id = "credits">Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
   </body>
+
+  <footer>
+    <div class="footer">Designed by Alina Prigozhina, 2019</div>
+  </footer>
 </html>
