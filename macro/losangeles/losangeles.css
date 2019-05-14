@@ -1,10 +1,7 @@
 #losangeles_sites {
   height: 600px;
+  width: 100%;
   text-align: left
-}
-
-#losangeles_parking {
-  height: 600px
 }
 
 body {
