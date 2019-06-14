@@ -97,7 +97,7 @@ function resetHighlight(e) {
 		info.update()
 }
 
-//Layer 3
+// Layer 3
 let speakersUrl = 'https://aprigozhina.github.io/LouisianaLingvo/tabletry.geojson'
 jQuery.getJSON(speakersUrl, function (data) {
 	vowels = L.geoJson(data, {
