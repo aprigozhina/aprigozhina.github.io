@@ -104,7 +104,7 @@ jQuery.getJSON(speakersUrl, function (data) {
 		 onEachFeature: onEachFeature3,
 			pointToLayer: function(feature,latlng){
 				var colors = { // variable properties go in curly braces
-					"No change":"#1a9850"
+					"Never changed":"#1a9850"
 				};
 				return L.circleMarker(latlng, {
 					radius: 7,
@@ -121,8 +121,8 @@ jQuery.getJSON(speakersUrl, function (data) {
 
 // add pop-ups
 let onEachFeature3 = function (feature, layer) {
-			let table = feature.properties.table
-			 	layer.bindPopup(table)
+			let name = feature.properties.table
+			 	layer.bindPopup(name)
 		speakers.addLayer(layer)
  }
 
