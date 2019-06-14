@@ -1,0 +1,35 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4269"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.062855691506897,
+          30.013143860170501
+        ]
+      },
+      "properties" : {
+        "group" : 0,
+        "zip1" : 70122,
+        "zip2" : null,
+        "zip3" : 70122,
+        "ziptype" : "Never changed",
+        "speaker" : "AA",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "vowel" : "TRAP",
+        "x" : -90.062855691506897,
+        "y" : 30.013143860170501,
+        "table" : "<table><tr><th>Word</th><th>F120</th><th>Audio</th></tr><tr><td>had</td><td>1.721</td><td><audio src="HAD_LJ-m-AA-NI.wav" controls ></audio></td></tr></table>"
+      }
+    }
+  ]
+}
