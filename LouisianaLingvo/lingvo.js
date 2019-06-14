@@ -11,10 +11,11 @@ let answerSet1
 let answerSet2
 let sentence1 = L.layerGroup().addTo(myMap)
 let sentence2 = L.layerGroup().addTo(myMap)
+let speakers = L.layerGroup().addTo(myMap)
 
 // Add GeoJSON with markers
 // Layer 1
-let lingvoData = 'https://aprigozhina.github.io/lingvoMap/data.geojson'
+let lingvoData = 'https://aprigozhina.github.io/LouisianaLingvo/data.geojson'
 jQuery.getJSON(lingvoData, function (data) {
 	answerSet1 = L.geoJson(data, {
 		 onEachFeature: onEachFeature1,
@@ -37,7 +38,7 @@ jQuery.getJSON(lingvoData, function (data) {
 })
 
 // Layer 2
-let lingvoData2 = 'https://aprigozhina.github.io/lingvoMap/data2.geojson'
+let lingvoData2 = 'https://aprigozhina.github.io/LouisianaLingvo/data2.geojson'
 jQuery.getJSON(lingvoData2, function (data) {
 	answerSet2 = L.geoJson(data, {
 		 onEachFeature: onEachFeature2,
@@ -94,6 +95,35 @@ function resetHighlight(e) {
 		answerSet2.resetStyle(e.target)
 		info.update()
 }
+
+//Layer 3
+let speakersUrl = 'https://aprigozhina.github.io/LouisianaLingvo/tabletry.geojson'
+jQuery.getJSON(speakersUrl, function (data) {
+	vowels = L.geoJson(data, {
+		 onEachFeature: onEachFeature1,
+			pointToLayer: function(feature,latlng){
+				var colors = { // variable properties go in curly braces
+					"No change":"#1a9850"
+				};
+				return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: colors[feature.properties.ziptype],
+					color: colors[feature.properties.ziptype],
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.6,
+					clickable: true
+				});
+			}
+	}).addTo(myMap)
+})
+
+// add pop-ups
+let onEachFeature = function (feature, layer) {
+			let name = feature.properties.table
+			 	layer.bindPopup(name)
+		speakers.addLayer(layer)
+ }
 
 // add layer control
 let baseLayers = {
