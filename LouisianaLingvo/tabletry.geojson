@@ -30,7 +30,7 @@
         "y" : 30.013143860170501,
         "table" : "<table>
         <tr><th>Word</th><th>F120</th><th>Audio</th></tr>
-        <tr><td>had</td><td>1.721</td><td><audio controls><source src='HAD_LJ-m-AA-NI.wav' type='audio/wav'></audio></td></tr>
+        <tr><td>had</td><td>1.721</td><td><audio controls><source src="HAD_LJ-m-AA-NI.wav"></controls></audio></td></tr>
         </table>"
       }
     }
