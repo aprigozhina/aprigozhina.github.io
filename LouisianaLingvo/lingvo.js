@@ -9,6 +9,7 @@ let OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
 // set variables for layer-control and info pane
 let answerSet1
 let answerSet2
+let vowels
 let sentence1 = L.layerGroup().addTo(myMap)
 let sentence2 = L.layerGroup().addTo(myMap)
 let speakers = L.layerGroup().addTo(myMap)
@@ -100,7 +101,7 @@ function resetHighlight(e) {
 let speakersUrl = 'https://aprigozhina.github.io/LouisianaLingvo/tabletry.geojson'
 jQuery.getJSON(speakersUrl, function (data) {
 	vowels = L.geoJson(data, {
-		 onEachFeature: onEachFeature1,
+		 onEachFeature: onEachFeature3,
 			pointToLayer: function(feature,latlng){
 				var colors = { // variable properties go in curly braces
 					"No change":"#1a9850"
@@ -119,9 +120,9 @@ jQuery.getJSON(speakersUrl, function (data) {
 })
 
 // add pop-ups
-let onEachFeature = function (feature, layer) {
-			let name = feature.properties.table
-			 	layer.bindPopup(name)
+let onEachFeature3 = function (feature, layer) {
+			let table = feature.properties.table
+			 	layer.bindPopup(table)
 		speakers.addLayer(layer)
  }
 
@@ -132,7 +133,8 @@ let baseLayers = {
 
 let overlays = {
 	"Sentence 1": sentence1,
-	"Sentence 2": sentence2
+	"Sentence 2": sentence2,
+	"Speakers": speakers
 }
 
 L.control.layers(baseLayers, overlays, {
