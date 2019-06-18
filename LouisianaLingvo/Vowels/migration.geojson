@@ -1,0 +1,209 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4269"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -90.042490912999938,
+            29.972292377000031
+          ],
+          [
+            -90.032692119999979,
+            29.937956061000079
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "SPEAKER" : "DW",
+        "SHAPE_Length" : 0.03570712730960799
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -90.434732328999985,
+            30.134548497000026
+          ],
+          [
+            -91.799366594999981,
+            29.975099313000044
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "SPEAKER" : "BR",
+        "SHAPE_Length" : 1.3739180187404225
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -89.882155581999939,
+            29.867764750000049
+          ],
+          [
+            -91.800346727999965,
+            29.821433708000029
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "SPEAKER" : "CA",
+        "SHAPE_Length" : 1.9187505929759872
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -89.896201521999956,
+            29.899966906000031
+          ],
+          [
+            -91.799157635999961,
+            29.853473708000024
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "SPEAKER" : "LJ",
+        "SHAPE_Length" : 1.9035239923022431
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -90.125568021999982,
+            29.945153857000037
+          ],
+          [
+            -91.799070254999947,
+            29.93697914300003
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "SPEAKER" : "GD",
+        "SHAPE_Length" : 1.6735221987786273
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -89.87023499999998,
+            31.594687000000079
+          ],
+          [
+            -89.891128624999965,
+            29.910809200000074
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "SPEAKER" : "MA1",
+        "SHAPE_Length" : 1.6840074194903347
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -89.891128624999965,
+            29.910809200000074
+          ],
+          [
+            -91.75164334699997,
+            30.008582708000063
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "SPEAKER" : "MA2",
+        "SHAPE_Length" : 1.8630820405031494
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -90.016273921999982,
+            29.966589200000044
+          ],
+          [
+            -89.906884082999966,
+            29.915502639000067
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "SPEAKER" : "TJ1",
+        "SHAPE_Length" : 0.12073099681214368
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -89.906884082999966,
+            29.915502639000067
+          ],
+          [
+            -91.802018415999953,
+            29.892628651000052
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "SPEAKER" : "TJ2",
+        "SHAPE_Length" : 1.8952723707800765
+      }
+    }
+  ]
+}
