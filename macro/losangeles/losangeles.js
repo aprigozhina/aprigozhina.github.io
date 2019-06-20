@@ -17,6 +17,9 @@ let esriWorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/
 let incomeLAGroup = L.layerGroup().addTo(myMap)
 let plotsGroup = L.layerGroup().addTo(myMap)
 
+// create panes
+myMap.createPane('markers')
+myMap.getPane('markers').style.zIndex = 650
 
 // Add Income data GeoJSON
 let income_LA = 'https://aprigozhina.github.io/macro/losangeles/income_LA.geojson'
@@ -66,7 +69,8 @@ jQuery.getJSON(residentialSites, function (data){
 				 weight: 1,
 				 opacity: 1,
 				 fillOpacity: 0.7,
-				 clickable: true
+				 clickable: true,
+				 pane: 'markers'
 			 });
 		 }
  }).addTo(myMap)
@@ -103,7 +107,8 @@ jQuery.getJSON(interstitialSites, function (data){
 				 weight: 1,
 				 opacity: 1,
 				 fillOpacity: 0.7,
-				 clickable: true
+				 clickable: true,
+				 pane: 'markers'
 			 });
 		 }
  }).addTo(myMap)
@@ -134,7 +139,8 @@ let interstitialPopUp = function (feature, layer) {
  				 weight: 1,
  				 opacity: 1,
  				 fillOpacity: 0.7,
- 				 clickable: true
+ 				 clickable: true,
+				 pane: 'markers'
  			 });
  		 }
   }).addTo(myMap)
@@ -168,48 +174,3 @@ let layers = {
   }
 
 L.control.layers(basemaps, layers).addTo(myMap)
-
-
-
-//  MAP 2
-
-let pMap = L.map('losangeles_parking').setView([34.0, -118.35], 10)
-
-// Basemap tiles
-let openStreetMap2 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(pMap)
-
-let parkingGroup = L.layerGroup().addTo(pMap)
-
-// Add Parking locations GeoJSON
-let parkingSpots = 'https://aprigozhina.github.io/macro/losangeles/parking_spots.geojson'
-jQuery.getJSON(parkingSpots, function (data){
-	parkingPoints = L.geoJson(data, {
-		onEachFeature: parkingPopUp,
-		 pointToLayer: function(feature,latlng){
-			 var colors
-			 return L.circleMarker(latlng, {
-				 radius: 7,
-				 fillColor: '#045a8d',
-				 color: '#045a8d',
-				 weight: 1,
-				 opacity: 1,
-				 fillOpacity: 0.7,
-				 clickable: true
-			 });
-		 }
- }).addTo(pMap)
-})
-
-// add pop-ups
-let parkingPopUp = function (feature, layer) {
-		 let parkingType = feature.properties.Type
-		 let parkingName = feature.properties.Name
-			 layer.bindPopup(
-				 '<b>Plot type: </b>' + parkingType +
-				 '<br><b>Name: </b>' + parkingName
-				)
-	parkingGroup.addLayer(layer)
- }
