@@ -1,26 +1,21 @@
 .navbar {
-  height: 60px;
-
+  height: 60px
 }
 
-#title {
-  margin: 25px 25px 25px;
+#disclaimer {
+  margin: 25px 25px 25px 25px;
   font-size: 40px;
   color: #3360A3;
 }
 
 #modals {
-  height: 650px;
+  height: 620px;
   width: 100%
 }
 
-#credits {
-  font-size: 10px;
-}
-
 .info {
-    width: 160px;
-    height: 160px;
+    width: 270px;
+    height: 200px;
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
@@ -31,10 +26,4 @@
 .info h4 {
     margin: 0 0 5px;
     color: #3360A3;
-}
-
-.footer {
-  text-align: center;
-  font-size: 0.8rem;
-  font-style: italic
 }
