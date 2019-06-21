@@ -45,6 +45,27 @@ jQuery.getJSON(trapUrl, function (data) {
 	}).addTo(myMap)
 })
 
+// add pop-ups
+let onEachFeature1 = function (feature, layer) {
+			let speakerName = feature.properties.speaker
+			let speakerGender = feature.properties.gender
+			let speakerEthnicity = feature.properties.ethnicity
+			let zipOrigin = feature.properties.zip1
+			let zipInterm = feature.properties.zip2
+			let zipCurrent = feature.properties.zip3
+			let locType = feature.properties.ziptype
+			let word = feature.properties.word
+			let vowel = feature.properties.vowel
+			let soundLynk = feature.properties.sound
+			 	layer.bindPopup(
+					'<b>Speaker: </b>' + speakerName +
+					'<b> Gender: </b>' + speakerGender +
+					'<br><b>Ethnicity: </b>' + speakerEthnicity +
+					'<br><b>Location Type: </b>' + locType +
+					'<br><b>Vowel: </b>' + vowel +
+					'<br><b>Word: </b>' + word + ' <audio src="<%= sound %>" controls></audio>')
+		trap.addLayer(layer)
+ }
 // Layer 2
 let migrationUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/migration.geojson'
 jQuery.getJSON(migrationUrl, function (data) {
@@ -53,49 +74,43 @@ jQuery.getJSON(migrationUrl, function (data) {
 	}).addTo(myMap)
 })
 
-// var arrowHead = L.polylineDecorator(migration, {
+// var arrowHead = L.polylineDecorator(migrationUrl, {
 //     patterns: [
 //         {
 //             offset: '100%',
 //             repeat: 0,
-//             symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: false, pathOptions: {stroke: true}})
+//             symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: true, pathOptions: {stroke: true}}),
+// 						pane: 'markers'
 //         }
 //     ]
-// }).addTo(map);
+// }).addTo(myMap)
 
 // Layer 3
 
-// add pop-ups
-let onEachFeature1 = function (feature, layer) {
-			let tablePopup = feature.properties.table
-			 	layer.bindPopup(tablePopup)
-		trap.addLayer(layer)
- }
-
- // Parishes
- let parishUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ParishSimple.geojson'
- jQuery.getJSON(parishUrl, function (data) {
- 	let parishes = function (feature) { // this function returns an object
- 	//	let males = feature.properties.MALES
- 	//	let females = feature.properties.FEMALES
- 	//		let genderComposition = males / females * 100
- 			let parishColor = '#bdc9e1'
- 	//			if ( genderComposition < 100 ) {stateColor = '#67a9cf'}
- 	//			if ( genderComposition < 97 ) { stateColor = '#02818a' }
- 						return {
- 							fillColor: parishColor,
- 							color: '#808B96', //use the color variable above for the value
- 						 	weight: 1,
- 						 	fillOpacity: 0.4,
- 						 	dashArray: '3'
- 						}
- 		}
- 				let parishesOptions = {
- 					style: parishes,
- 		  		onEachFeature: onEachFeature6
- 		 		}
- 	L.geoJSON(data, parishesOptions).addTo(myMap)
- })
+// Parishes
+let parishUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ParishSimple.geojson'
+	 jQuery.getJSON(parishUrl, function (data) {
+	 	let parishes = function (feature) { // this function returns an object
+	 	//	let males = feature.properties.MALES
+	 	//	let females = feature.properties.FEMALES
+	 	//		let genderComposition = males / females * 100
+	 			let parishColor = '#bdc9e1'
+	 	//			if ( genderComposition < 100 ) {stateColor = '#67a9cf'}
+	 	//			if ( genderComposition < 97 ) { stateColor = '#02818a' }
+	 						return {
+	 							fillColor: parishColor,
+	 							color: '#808B96', //use the color variable above for the value
+	 						 	weight: 1,
+	 						 	fillOpacity: 0.4,
+	 						 	dashArray: '3'
+	 						}
+	 		}
+	 				let parishesOptions = {
+	 					style: parishes,
+	 		  		onEachFeature: onEachFeature6
+	 		 		}
+	 	L.geoJSON(data, parishesOptions).addTo(myMap)
+})
 
  // add pop-ups
  let onEachFeature6 = function (feature, layer) {
@@ -105,7 +120,7 @@ let onEachFeature1 = function (feature, layer) {
   }
 
   // ZIP codes
-  let zipUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ZIPSimple.geojson'
+let zipUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ZIPSimple.geojson'
   jQuery.getJSON(zipUrl, function (data) {
   	let zipCodes = function (feature) { // this function returns an object
   	//	let males = feature.properties.MALES
@@ -126,7 +141,7 @@ let onEachFeature1 = function (feature, layer) {
   		  		onEachFeature: onEachFeature7
   		 		}
   	L.geoJSON(data, zipOptions).addTo(myMap)
-  })
+})
 
   // add pop-ups
   let onEachFeature7 = function (feature, layer) {
