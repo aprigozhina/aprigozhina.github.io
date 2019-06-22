@@ -62,17 +62,28 @@ let onEachFeature1 = function (feature, layer) {
 					'<b> Gender: </b>' + speakerGender +
 					'<br><b>Ethnicity: </b>' + speakerEthnicity +
 					'<br><b>Location Type: </b>' + locType +
-					'<br><b>Vowel: </b>' + vowel +
-					'<br><b>Word: </b>' + word + ' <audio src="<%= sound %>" controls></audio>')
+					'<br><b>Vowel: </b>' + vowel + ' [æ] ' +
+					'<br><b>Word: </b>' + word + ' <audio src="<%= soundLynk %>" controls></audio>' +
+					'<br><b>Word: </b>' + word + ' <audio src="<%= soundLynk %>" controls></audio>')
 		trap.addLayer(layer)
  }
 // Layer 2
 let migrationUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/migration.geojson'
 jQuery.getJSON(migrationUrl, function (data) {
 	migration = L.geoJson(data, {
-		pane: 'markers'
+		pane: 'markers',
+		weight: 0.8
 	}).addTo(myMap)
 })
+
+let addArrows = L.polylineDecorator(migration, {
+    patterns: [
+        // defines a pattern of 10px-wide dashes, repeated every 20px on the line
+        {offset: '100%',
+				repeat: 0,
+				symbol: L.Symbol.arrowHead({ pixelSize: 15, polygon: true, pathOptions: { stroke: true } }) }
+			]
+		}).addTo(myMap)
 
 // var arrowHead = L.polylineDecorator(migrationUrl, {
 //     patterns: [
@@ -152,7 +163,7 @@ let zipUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ZIPSimple.geojson'
 
 // add layer control
 let baseLayers = {
-	"TRAP": trap,
+	"TRAP [æ]": trap,
 	"DRESS": dress,
 	"GOOSE": goose
 }
