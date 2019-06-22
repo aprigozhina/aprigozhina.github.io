@@ -76,25 +76,15 @@ jQuery.getJSON(migrationUrl, function (data) {
 	}).addTo(myMap)
 })
 
-let addArrows = L.polylineDecorator(migration, {
-    patterns: [
-        // defines a pattern of 10px-wide dashes, repeated every 20px on the line
-        {offset: '100%',
-				repeat: 0,
-				symbol: L.Symbol.arrowHead({ pixelSize: 15, polygon: true, pathOptions: { stroke: true } }) }
-			]
-		}).addTo(myMap)
-
-// var arrowHead = L.polylineDecorator(migrationUrl, {
+// let addArrows = L.polylineDecorator(migration, {
 //     patterns: [
-//         {
-//             offset: '100%',
-//             repeat: 0,
-//             symbol: L.Symbol.arrowHead({pixelSize: 15, polygon: true, pathOptions: {stroke: true}}),
-// 						pane: 'markers'
-//         }
-//     ]
-// }).addTo(myMap)
+//         // defines a pattern of 10px-wide dashes, repeated every 20px on the line
+//         {offset: '100%',
+// 				repeat: 0,
+// 				symbol: L.Symbol.arrowHead({ pixelSize: 15, polygon: true, pathOptions: { stroke: true } }) }
+// 			]
+// 		}).addTo(myMap)
+
 
 // Layer 3
 
