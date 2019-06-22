@@ -205,7 +205,7 @@ info.update = function (props) {
 				'<br><b>Mother Education: </b>' + props.mother_ed +
 				'<br><b>Father Education: </b>' + props.father_ed +
 				'<br><b>Stay in Louisiana: </b>' + props.stayInLA
-        : 'Hover over a point')
+        : 'Hover over a point to see the speaker info and survey response')
 }
 
 info.addTo(myMap)
