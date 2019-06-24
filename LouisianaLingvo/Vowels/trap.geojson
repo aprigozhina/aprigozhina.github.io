@@ -327,8 +327,8 @@
         "word" : "HAD",
         "vowel" : "TRAP",
         "word2" : "PAT",
-        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
-        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+        "word_sound" : "\u003caudio src='audio/HAD_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/PAT_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e"
       }
     },
     {
