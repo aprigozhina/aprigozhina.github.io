@@ -24,18 +24,14 @@
         "zip2" : null,
         "zip3" : 70114,
         "speaker" : "DW",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -90.029979165473037,
-        "Y1" : 29.968489003954744,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : -90.032692120417778,
-        "Y3" : 29.937956060645604,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -44,8 +40,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.799366594999981,
-          29.975099313000044
+          -91.875509346999991,
+          30.046007251000049
         ]
       },
       "properties" : {
@@ -55,18 +51,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "BR",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "European-American",
-        "X1" : -90.434732329131975,
-        "Y1" : 30.134548497120988,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -86,18 +78,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "CA",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -89.892712394072078,
-        "Y1" : 29.899974085645454,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -106,8 +94,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.799157635999961,
-          29.853473708000024
+          -91.892908399999953,
+          29.849666570000068
         ]
       },
       "properties" : {
@@ -117,18 +105,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "LJ",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -89.892712394072078,
-        "Y1" : 29.899974085645454,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "current",
-        "sound" : "https://aprigozhina.github.io/LouisianaLingvo/Vowels/audio/HAD_LJ-m-AA-NI.wav",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "\u003caudio src='audio/HAD_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/PAT_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e"
       }
     },
     {
@@ -148,18 +132,14 @@
         "zip2" : "70092",
         "zip3" : 70560,
         "speaker" : "TJ",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.029979165473037,
-        "Y1" : 29.968489003954744,
-        "X2" : "-89.892712394",
-        "Y2" : "29.899974086",
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -168,8 +148,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.799070254999947,
-          29.93697914300003
+          -91.890301490999946,
+          29.960684274000073
         ]
       },
       "properties" : {
@@ -179,18 +159,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "GD",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.12556802210338,
-        "Y1" : 29.945153857008847,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -210,18 +186,14 @@
         "zip2" : "70092",
         "zip3" : 70563,
         "speaker" : "MA",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -89.870234999999994,
-        "Y1" : 31.594687,
-        "X2" : "-89.892712394",
-        "Y2" : "29.899974086",
-        "X3" : -91.728443601882191,
-        "Y3" : 30.024644070493423,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Current",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -241,18 +213,14 @@
         "zip2" : "70092",
         "zip3" : 70563,
         "speaker" : "MA",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -89.870234999999994,
-        "Y1" : 31.594687,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -272,18 +240,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "BR",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "European-American",
-        "X1" : -90.434732329131975,
-        "Y1" : 30.134548497120988,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -303,18 +267,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "CA",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -89.892712394072078,
-        "Y1" : 29.899974085645454,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -334,18 +294,14 @@
         "zip2" : null,
         "zip3" : 70092,
         "speaker" : "DR",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -89.892712394072078,
-        "Y1" : 29.899974085645454,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -365,18 +321,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "LJ",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -89.892712394072078,
-        "Y1" : 29.899974085645454,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -396,18 +348,14 @@
         "zip2" : null,
         "zip3" : 70114,
         "speaker" : "DW",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -90.029979165473037,
-        "Y1" : 29.968489003954744,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -427,18 +375,14 @@
         "zip2" : "70092",
         "zip3" : 70560,
         "speaker" : "TJ",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.029979165473037,
-        "Y1" : 29.968489003954744,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -458,18 +402,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "GD",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.12556802210338,
-        "Y1" : 29.945153857008847,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "origin",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -489,18 +429,14 @@
         "zip2" : null,
         "zip3" : 70122,
         "speaker" : "AA",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.062855691506854,
-        "Y1" : 30.013143860170544,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -520,18 +456,14 @@
         "zip2" : null,
         "zip3" : 70122,
         "speaker" : "DM",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -90.062855691506897,
-        "Y1" : 30.013143860170501,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -551,18 +483,14 @@
         "zip2" : null,
         "zip3" : 70127,
         "speaker" : "TD",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -89.976749872887353,
-        "Y1" : 30.025017328308991,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -571,8 +499,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.857482998999956,
-          29.861347158000058
+          -91.862717812999961,
+          30.001973304000046
         ]
       },
       "properties" : {
@@ -582,18 +510,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "AC",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "European-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "https://aprigozhina.github.io/LouisianaLingvo/Vowels/audio/HAD_AC-f-EA-NI.wav",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "\u003caudio src='audio/HAD_AC-f-EA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/PAT_AC-f-EA-NI.wav' controls\u003e\u003c/audio\u003e"
       }
     },
     {
@@ -602,8 +526,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.912448547999986,
-          30.02303153400004
+          -91.920300769999983,
+          29.995429786000045
         ]
       },
       "properties" : {
@@ -613,18 +537,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "BC",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "European-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "https://aprigozhina.github.io/LouisianaLingvo/Vowels/audio/HAD_BC-m-EA_NI.wav",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "\u003caudio src='audio/HAD_BC-m-EA_NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/PAT_BC-m-EA_NI.wav' controls\u003e\u003c/audio\u003e"
       }
     },
     {
@@ -633,8 +553,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.826906924999946,
-          29.801265769000054
+          -91.834045307999986,
+          29.782230081000023
         ]
       },
       "properties" : {
@@ -644,18 +564,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "CG",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -675,18 +591,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "CJ",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -695,8 +607,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.839280121999991,
-          29.998047193000048
+          -91.804777936999983,
+          29.977821774000063
         ]
       },
       "properties" : {
@@ -706,18 +618,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "CK",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -726,8 +634,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.913043412999968,
-          29.86598710800007
+          -91.948735327999941,
+          29.871697814000072
         ]
       },
       "properties" : {
@@ -737,18 +645,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "EK",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -757,8 +661,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.870451060999983,
-          29.910245082000074
+          -91.855698402999963,
+          29.893112963000078
         ]
       },
       "properties" : {
@@ -768,18 +672,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "JS",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "European-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -788,8 +688,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.878184308999948,
-          29.945580079000024
+          -91.832974548999971,
+          29.932968936000066
         ]
       },
       "properties" : {
@@ -799,18 +699,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "LK",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "https://aprigozhina.github.io/LouisianaLingvo/Vowels/audio/HAD_LK-f-AA-NI.wav",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "\u003caudio src='audio/HAD_LK-f-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/PAT_LK-f-AA-NI.wav' controls\u003e\u003c/audio\u003e"
       }
     },
     {
@@ -819,8 +715,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.88172429399998,
-          29.988352897000027
+          -91.946445632999939,
+          30.03546622500005
         ]
       },
       "properties" : {
@@ -830,18 +726,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "SR",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "European-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -850,8 +742,8 @@
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -91.943381540999951,
-          29.985555023000074
+          -91.970745342999976,
+          29.980796101000067
         ]
       },
       "properties" : {
@@ -861,18 +753,14 @@
         "zip2" : null,
         "zip3" : 70560,
         "speaker" : "TL",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -91.870213115398712,
-        "Y1" : 29.920119845923921,
-        "X2" : null,
-        "Y2" : null,
-        "X3" : null,
-        "Y3" : null,
-        "ziptype" : "current",
-        "sound" : "lynk",
+        "ziptype" : "Origin",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -892,18 +780,14 @@
         "zip2" : "70092",
         "zip3" : 70560,
         "speaker" : "TJ",
-        "gender" : "F",
+        "gender" : "Female",
         "ethnicity" : "African-American",
-        "X1" : -90.029979165473037,
-        "Y1" : 29.968489003954744,
-        "X2" : "-89.8927123940721",
-        "Y2" : "29.8999740856455",
-        "X3" : -91.870213115398712,
-        "Y3" : 29.920119845923921,
-        "ziptype" : "interm",
-        "sound" : "lynk",
+        "ziptype" : "Interim",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     },
     {
@@ -923,18 +807,14 @@
         "zip2" : "70092",
         "zip3" : 70563,
         "speaker" : "MA",
-        "gender" : "M",
+        "gender" : "Male",
         "ethnicity" : "African-American",
-        "X1" : -89.870234999999994,
-        "Y1" : 31.594687,
-        "X2" : "-89.8927123940721",
-        "Y2" : "29.8999740856455",
-        "X3" : -91.728443601882191,
-        "Y3" : 30.024644070493423,
-        "ziptype" : "interm",
-        "sound" : "lynk",
+        "ziptype" : "Interim",
         "word" : "HAD",
-        "vowel" : "TRAP"
+        "vowel" : "TRAP",
+        "word2" : "PAT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
       }
     }
   ]
