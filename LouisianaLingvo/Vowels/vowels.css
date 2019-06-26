@@ -1,6 +1,5 @@
 .navbar {
   height: 60px;
-
 }
 
 #disclaimer {
@@ -16,29 +15,28 @@
 
 .legend {
   margin-bottom: 50px;
+  font-weight: normal
 }
 
 .tableName {
   text-align: center;
-  font: Courier
-}
-
-.tablehead {
-  text-align: center;
-  border: 1px solid black;
-  background-color: #F8F9FA;
-  font-family: 'Helvetica', sans-serif;
-  font-style: normal;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px
 }
 
 .leftCol {
   text-align: center;
-  border: 1px solid black;
   width: 75px
 }
 
 .rightCol {
   text-align: left;
-  border: 1px solid black;
-  width: 300px
+  width: 300px;
+  font-weight: normal
+}
+
+.comments {
+  margin-top: 20px;
+  font-size: 10px
 }

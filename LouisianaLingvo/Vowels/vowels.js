@@ -25,12 +25,15 @@ let schwa = L.layerGroup().addTo(myMap)
 let parishesLayer = L.layerGroup().addTo(myMap)
 let zipCodeLayer = L.layerGroup().addTo(myMap)
 
-// create panes
+// create panes - defines layers order
 myMap.createPane('markers')
 myMap.getPane('markers').style.zIndex = 650
 
 myMap.createPane('migrationLines')
 myMap.getPane('migrationLines').style.zIndex = 640
+
+myMap.createPane('parishesBelow')
+myMap.getPane('parishesBelow').style.zIndex = 390
 
 // Migration lines layer
 let migrationUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/migration.geojson'
@@ -50,6 +53,7 @@ let onEachFeature0 = function (feature, layer) {
 		migration.addLayer(layer)
  }
 
+// tries to make arrowhead
 // let addArrows = L.polylineDecorator(migration, {
 //     patterns: [
 //         // defines a pattern of 10px-wide dashes, repeated every 20px on the line
@@ -117,25 +121,21 @@ let onEachFeature1 = function (feature, layer) {
 // Parishes
 let parishUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ParishSimple.geojson'
 	 jQuery.getJSON(parishUrl, function (data) {
-	 	let parishes = function (feature) { // this function returns an object
-	 	//	let males = feature.properties.MALES
-	 	//	let females = feature.properties.FEMALES
-	 	//		let genderComposition = males / females * 100
+	 	let parishes = function (feature) {
 	 			let parishColor = '#bdc9e1'
-	 	//			if ( genderComposition < 100 ) {stateColor = '#67a9cf'}
-	 	//			if ( genderComposition < 97 ) { stateColor = '#02818a' }
 	 						return {
 	 							fillColor: parishColor,
-	 							color: '#808B96', //use the color variable above for the value
+	 							color: '#808B96',
 	 						 	weight: 1,
 	 						 	fillOpacity: 0.4,
-	 						 	dashArray: '3'
+	 						 	dashArray: '3',
+								pane: 'parishesBelow'
 	 						}
 	 		}
-	 				let parishesOptions = {
+	 		let parishesOptions = {
 	 					style: parishes,
 	 		  		onEachFeature: onEachFeature6
-	 		 		}
+	 		}
 	 	L.geoJSON(data, parishesOptions).addTo(myMap)
 })
 
@@ -149,31 +149,39 @@ let parishUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ParishSimple.geoj
   // ZIP codes
 let zipUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ZIPSimple.geojson'
   jQuery.getJSON(zipUrl, function (data) {
-  	let zipCodes = function (feature) { // this function returns an object
-  	//	let males = feature.properties.MALES
+  	let zipCodes = function (feature) {
+  	let edIndex = feature.properties.EdIndex
   	//	let females = feature.properties.FEMALES
   	//		let genderComposition = males / females * 100
-  			let zipColor = '#A2D9CE'
-  	//			if ( genderComposition < 100 ) {stateColor = '#67a9cf'}
-  	//			if ( genderComposition < 97 ) { stateColor = '#02818a' }
+  			let zipColor = '#006d2c'
+					if (edIndex < 0.5) { zipColor = '#2ca25f' }
+					if (edIndex < 0.3) { zipColor = '#66c2a4' }
+					if (edIndex < 0.2) { zipColor = '#b2e2e2' }
+					if (edIndex < 0.1) { zipColor = '#edf8fb' }
   						return {
   							fillColor: zipColor,
-  							color: '#808B96', //use the color variable above for the value
+  							color: '#808B96',
   						 	weight: 0.5,
   						 	fillOpacity: 0.4
   						}
   		}
-  				let zipOptions = {
+  		let zipOptions = {
   					style: zipCodes,
   		  		onEachFeature: onEachFeature7
-  		 		}
+  		}
   	L.geoJSON(data, zipOptions).addTo(myMap)
 })
 
   // add pop-ups
   let onEachFeature7 = function (feature, layer) {
-  			let name = feature.properties.ZCTA5CE10
-  				 	layer.bindPopup('ZIP: ' + name)
+  			let name = feature.properties.GEOID10
+				let edIndex = Math.round(feature.properties.EdIndex * 100)
+				let pop = feature.properties.Population
+  				 	layer.bindPopup(
+							'<b>ZIP: </b>' + name +
+							'<br><b>Total Population: </b>' + pop +
+							'<br><b>Education Index: </b>' + edIndex + '%'
+						)
   		zipCodeLayer.addLayer(layer)
    }
 

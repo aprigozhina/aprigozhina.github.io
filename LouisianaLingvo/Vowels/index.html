@@ -33,20 +33,15 @@
       </div>
     </nav>
 
-    <!-- <div id="title">Grammatical Diversity Map</div> -->
+    <!-- Main content -->
     <table style="width:100%">
       <tr>
         <th><div id="vowels"></div></th>
         <th>
+
           <div class="legend">
-            <div class="tableName">Location Types <br>(by ZIP Codes)</div>
+            <div class="tableName">Location Types</div>
             <table>
-              <thead>
-                <tr>
-                  <th class="tablehead">Marker</th>
-                  <th class="tablehead">Location Type</th>
-                </tr>
-              </thead>
               <tbody>
                 <tr>
                   <td class="leftCol">
@@ -75,24 +70,56 @@
               </tbody>
             </table>
           </div>
+
           <div class="legend">
             <div class="tableName">Education Index*</div>
             <table>
-              <thead>
-                <tr>
-                  <th class="tablehead">Color</th>
-                  <th class="tablehead">Education Index</th>
-                </tr>
-              </thead>
               <tbody>
                 <tr>
-                  <td class="Color0"></td>
-                  <td class="rightCol">Origin</td>
+                  <td class="leftCol">
+                    <svg width="36" height="28">
+                      <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#edf8fb" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">Less than 10%</td>
+                </tr>
+                <tr>
+                  <td class="leftCol">
+                    <svg width="36" height="28">
+                      <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#b2e2e2" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">From 10.0% to 19.9%</td>
+                </tr>
+                <tr>
+                  <td class="leftCol">
+                    <svg width="36" height="28">
+                      <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#66c2a4" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">From 20% to 29.9%</td>
+                </tr>
+                <tr>
+                  <td class="leftCol">
+                    <svg width="36" height="28">
+                      <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#2ca25f" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">From 30% to 49.9%</td>
+                </tr>
+                <tr>
+                  <td class="leftCol">
+                    <svg width="36" height="28">
+                      <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#006d2c" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">From 50% to 100%</td>
                 </tr>
               </tbody>
             </table>
-            <p>*Education Index is a percentage of ZIP code area population 25 years and over with education level equals to or higher than college degree (calculated based on data from U.S. Census Bureau, 2013-2017 American Community Survey 5-Year Estimates, table B15002: Sex by Educational Attainment for the Population 25 Years and Over)</p>
+            <div class="comments">*<b>Education Index</b> is a percentage of ZIP code area population 25 years and over with education level equals to or higher than college degree (based on data from U.S. Census Bureau, 2013-2017 American Community Survey 5-Year Estimates, table B15002: Sex by Educational Attainment for the Population 25 Years and Over)</div>
           </div>
+
         </th>
       </tr>
     </table>
