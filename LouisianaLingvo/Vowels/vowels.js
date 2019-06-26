@@ -7,11 +7,21 @@ let OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
 }).addTo(myMap)
 
 // set variables for layer-control and info pane
-let vowels
-let migration
+let migration = L.layerGroup().addTo(myMap)
 let trap = L.layerGroup().addTo(myMap)
 let dress = L.layerGroup().addTo(myMap)
 let goose = L.layerGroup().addTo(myMap)
+let face = L.layerGroup().addTo(myMap)
+let fleece = L.layerGroup().addTo(myMap)
+let foot = L.layerGroup().addTo(myMap)
+let goat = L.layerGroup().addTo(myMap)
+let kit = L.layerGroup().addTo(myMap)
+let price = L.layerGroup().addTo(myMap)
+let strut = L.layerGroup().addTo(myMap)
+let lot = L.layerGroup().addTo(myMap)
+let thought = L.layerGroup().addTo(myMap)
+let mouth = L.layerGroup().addTo(myMap)
+let schwa = L.layerGroup().addTo(myMap)
 let parishesLayer = L.layerGroup().addTo(myMap)
 let zipCodeLayer = L.layerGroup().addTo(myMap)
 
@@ -19,17 +29,47 @@ let zipCodeLayer = L.layerGroup().addTo(myMap)
 myMap.createPane('markers')
 myMap.getPane('markers').style.zIndex = 650
 
-// Add GeoJSON with markers
-// Layer 1
+myMap.createPane('migrationLines')
+myMap.getPane('migrationLines').style.zIndex = 640
+
+// Migration lines layer
+let migrationUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/migration.geojson'
+jQuery.getJSON(migrationUrl, function (data) {
+	migration = L.geoJson(data, {
+		 onEachFeature: onEachFeature0,
+		pane: 'migrationLines',
+		weight: 0.8
+	}).addTo(myMap)
+})
+
+// add pop-ups
+let onEachFeature0 = function (feature, layer) {
+			let speakerName = feature.properties.SPEAKER
+			 	layer.bindPopup(
+					'<b>Speaker: </b>' + speakerName)
+		migration.addLayer(layer)
+ }
+
+// let addArrows = L.polylineDecorator(migration, {
+//     patterns: [
+//         // defines a pattern of 10px-wide dashes, repeated every 20px on the line
+//         {offset: '100%',
+// 				repeat: 0,
+// 				symbol: L.Symbol.arrowHead({ pixelSize: 15, polygon: true, pathOptions: { stroke: true } }) }
+// 			]
+// 		}).addTo(myMap)
+
+
+// Layer 1 TRAP
 let trapUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/trap.geojson'
 jQuery.getJSON(trapUrl, function (data) {
 	vowels = L.geoJson(data, {
 		 onEachFeature: onEachFeature1,
 			pointToLayer: function(feature,latlng){
-				var colors = { // variable properties go in curly braces
-					"origin":"#A569BD",
-					"interm":"#5DADE2",
-					"current":"#2471A3"
+				var colors = {
+					"Origin":"#A569BD",
+					"Interim":"#5DADE2",
+					"Current":"#2471A3"
 				};
 				return L.circleMarker(latlng, {
 					radius: 7,
@@ -45,7 +85,7 @@ jQuery.getJSON(trapUrl, function (data) {
 	}).addTo(myMap)
 })
 
-// add pop-ups
+// add pop-ups TRAP
 let onEachFeature1 = function (feature, layer) {
 			let speakerName = feature.properties.speaker
 			let speakerGender = feature.properties.gender
@@ -55,35 +95,21 @@ let onEachFeature1 = function (feature, layer) {
 			let zipCurrent = feature.properties.zip3
 			let locType = feature.properties.ziptype
 			let word = feature.properties.word
+			let word2 = feature.properties.word2
 			let vowel = feature.properties.vowel
-			let soundLynk = feature.properties.sound
+			let soundLynk = feature.properties.word_sound
+			let soundLynk2 = feature.properties.word2_sound
 			 	layer.bindPopup(
 					'<b>Speaker: </b>' + speakerName +
 					'<b> Gender: </b>' + speakerGender +
 					'<br><b>Ethnicity: </b>' + speakerEthnicity +
 					'<br><b>Location Type: </b>' + locType +
 					'<br><b>Vowel: </b>' + vowel + ' [æ] ' +
-					'<br><b>Word: </b>' + word + ' <audio src="<%= soundLynk %>" controls></audio>' +
-					'<br><b>Word: </b>' + word + ' <audio src="<%= soundLynk %>" controls></audio>')
+					'<br><b>Word: </b>' + word + '<br>' + soundLynk +
+					'<br><b>Word: </b>' + word2 + '<br>' + soundLynk2)
 		trap.addLayer(layer)
  }
 // Layer 2
-let migrationUrl = 'https://aprigozhina.github.io/LouisianaLingvo/Vowels/migration.geojson'
-jQuery.getJSON(migrationUrl, function (data) {
-	migration = L.geoJson(data, {
-		pane: 'markers',
-		weight: 0.8
-	}).addTo(myMap)
-})
-
-// let addArrows = L.polylineDecorator(migration, {
-//     patterns: [
-//         // defines a pattern of 10px-wide dashes, repeated every 20px on the line
-//         {offset: '100%',
-// 				repeat: 0,
-// 				symbol: L.Symbol.arrowHead({ pixelSize: 15, polygon: true, pathOptions: { stroke: true } }) }
-// 			]
-// 		}).addTo(myMap)
 
 
 // Layer 3
@@ -153,9 +179,20 @@ let zipUrl = 'https://aprigozhina.github.io/LouisianaLingvo/ZIPSimple.geojson'
 
 // add layer control
 let baseLayers = {
-	"TRAP [æ]": trap,
-	"DRESS": dress,
-	"GOOSE": goose
+	"DRESS [ɛ]": dress,
+	"FACE [e]": face,
+	"FLEECE [i]": fleece,
+	"FOOT [ʊ]": foot,
+	"GOAT [o]": goat,
+	"GOOSE [u]": goose,
+	"KIT [ɪ]": kit,
+	"LOT [ɑ]": lot,
+	"MOUTH [aʊ]": mouth,
+	"PRICE [aɪ]": price,
+	"SCHWA [ə]": schwa,
+	"STRUT [ʌ]": strut,
+	"THOUGHT [ɔ]": thought,
+	"TRAP [æ]": trap
 }
 
 let overlays = {

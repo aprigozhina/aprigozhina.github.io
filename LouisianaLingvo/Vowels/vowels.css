@@ -11,5 +11,34 @@
 
 #vowels {
   height: 620px;
-  width: 100%
+  width: 1300px
+}
+
+.legend {
+  margin-bottom: 50px;
+}
+
+.tableName {
+  text-align: center;
+  font: Courier
+}
+
+.tablehead {
+  text-align: center;
+  border: 1px solid black;
+  background-color: #F8F9FA;
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+}
+
+.leftCol {
+  text-align: center;
+  border: 1px solid black;
+  width: 75px
+}
+
+.rightCol {
+  text-align: left;
+  border: 1px solid black;
+  width: 300px
 }
