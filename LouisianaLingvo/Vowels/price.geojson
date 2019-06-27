@@ -1,0 +1,821 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4269"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.032692119999979,
+          29.937956061000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "group_" : 0,
+        "zip1" : 70117,
+        "zip2" : null,
+        "zip3" : 70114,
+        "speaker" : "DW",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.875509346999991,
+          30.046007251000049
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "group_" : 4,
+        "zip1" : 70068,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "BR",
+        "gender" : "Female",
+        "ethnicity" : "European-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.800346727999965,
+          29.821433708000029
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "group_" : 1,
+        "zip1" : 70092,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "CA",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.892908399999953,
+          29.849666570000068
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "group_" : 1,
+        "zip1" : 70092,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "LJ",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "\u003caudio src='audio/HIDE_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/TIGHT_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.802018415999953,
+          29.892628651000052
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "group_" : 1,
+        "zip1" : 70117,
+        "zip2" : "70092",
+        "zip3" : 70560,
+        "speaker" : "TJ",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.890301490999946,
+          29.960684274000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "group_" : 1,
+        "zip1" : 70118,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "GD",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.75164334699997,
+          30.008582708000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "group_" : 1,
+        "zip1" : 39474,
+        "zip2" : "70092",
+        "zip3" : 70563,
+        "speaker" : "MA",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Current",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.87023499999998,
+          31.594687000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "group_" : 1,
+        "zip1" : 39474,
+        "zip2" : "70092",
+        "zip3" : 70563,
+        "speaker" : "MA",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.434732328999985,
+          30.134548497000026
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "group_" : 4,
+        "zip1" : 70068,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "BR",
+        "gender" : "Female",
+        "ethnicity" : "European-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.892863156999965,
+          29.882636381000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "group_" : 1,
+        "zip1" : 70092,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "CA",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.878842229999975,
+          29.883390195000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "group_" : 0,
+        "zip1" : 70092,
+        "zip2" : null,
+        "zip3" : 70092,
+        "speaker" : "DR",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.896179934999964,
+          29.899672561000045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "group_" : 1,
+        "zip1" : 70092,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "LJ",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "\u003caudio src='audio/HIDE_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/TIGHT_LJ-m-AA-NI.wav' controls\u003e\u003c/audio\u003e"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.042490912999938,
+          29.972292377000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "group_" : 0,
+        "zip1" : 70117,
+        "zip2" : null,
+        "zip3" : 70114,
+        "speaker" : "DW",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.016273921999982,
+          29.966589200000044
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "group_" : 1,
+        "zip1" : 70117,
+        "zip2" : "70092",
+        "zip3" : 70560,
+        "speaker" : "TJ",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.125568021999982,
+          29.945153857000037
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "group_" : 1,
+        "zip1" : 70118,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "GD",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.057294830999979,
+          29.999638913000069
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "group_" : 0,
+        "zip1" : 70122,
+        "zip2" : null,
+        "zip3" : 70122,
+        "speaker" : "AA",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.069210960999953,
+          30.021087947000069
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "group_" : 0,
+        "zip1" : 70122,
+        "zip2" : null,
+        "zip3" : 70122,
+        "speaker" : "DM",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.97674987299996,
+          30.025017328000047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "group_" : 0,
+        "zip1" : 70127,
+        "zip2" : null,
+        "zip3" : 70127,
+        "speaker" : "TD",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.862717812999961,
+          30.001973304000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "group_" : 3,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "AC",
+        "gender" : "Female",
+        "ethnicity" : "European-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "\u003caudio src='audio/HIDE_AC-f-EA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/TIGHT_AC-f-EA-NI.wav' controls\u003e\u003c/audio\u003e"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.920300769999983,
+          29.995429786000045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "group_" : 3,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "BC",
+        "gender" : "Male",
+        "ethnicity" : "European-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "\u003caudio src='audio/HIDE_BC-m-EA_NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/TIGHT_BC-m-EA_NI.wav' controls\u003e\u003c/audio\u003e"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.834045307999986,
+          29.782230081000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "group_" : 2,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "CG",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.93148423599996,
+          29.930232555000032
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "group_" : 2,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "CJ",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.804777936999983,
+          29.977821774000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "group_" : 2,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "CK",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.948735327999941,
+          29.871697814000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "group_" : 2,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "EK",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.855698402999963,
+          29.893112963000078
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "group_" : 3,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "JS",
+        "gender" : "Female",
+        "ethnicity" : "European-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.832974548999971,
+          29.932968936000066
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "group_" : 2,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "LK",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "\u003caudio src='audio/HIDE_LK-f-AA-NI.wav' controls\u003e\u003c/audio\u003e",
+        "word2_sound" : "\u003caudio src='audio/TIGHT_LK-f-AA-NI.wav' controls\u003e\u003c/audio\u003e"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.946445632999939,
+          30.03546622500005
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 41,
+        "group_" : 3,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "SR",
+        "gender" : "Male",
+        "ethnicity" : "European-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.970745342999976,
+          29.980796101000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 42,
+        "group_" : 3,
+        "zip1" : 70560,
+        "zip2" : null,
+        "zip3" : 70560,
+        "speaker" : "TL",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Origin",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.906884082999966,
+          29.915502639000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 43,
+        "group_" : 1,
+        "zip1" : 70117,
+        "zip2" : "70092",
+        "zip3" : 70560,
+        "speaker" : "TJ",
+        "gender" : "Female",
+        "ethnicity" : "African-American",
+        "ziptype" : "Interim",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.891128624999965,
+          29.910809200000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 44,
+        "group_" : 1,
+        "zip1" : 39474,
+        "zip2" : "70092",
+        "zip3" : 70563,
+        "speaker" : "MA",
+        "gender" : "Male",
+        "ethnicity" : "African-American",
+        "ziptype" : "Interim",
+        "word" : "HIDE",
+        "vowel" : "PRICE",
+        "word2" : "TIGHT",
+        "word_sound" : "For audio, try AC, BC, LJ, or LK speakers",
+        "word2_sound" : "For audio, try AC, BC, LJ, or LK speakers"
+      }
+    }
+  ]
+}
