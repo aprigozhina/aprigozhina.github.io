@@ -2,19 +2,22 @@
   height: 60px;
 }
 
-#disclaimer {
-  margin: 25px 25px 25px 25px;
-  font-size: 40px;
-  color: #3360A3;
-}
-
 #vowels {
   height: 620px;
   width: 1300px
 }
 
+.disclaimer {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal
+}
+
 .legend {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: normal
 }
 
@@ -32,11 +35,13 @@
 
 .rightCol {
   text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
   width: 300px;
   font-weight: normal
 }
 
 .comments {
   margin-top: 20px;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 10px
 }
