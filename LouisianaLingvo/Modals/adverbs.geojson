@@ -1,0 +1,2090 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4269"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.211219706999941,
+          30.007057442000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70003,
+        "education" : "High School Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -90.211219707424164,
+        "POINT_Y" : 30.007057441604957,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.216315148999968,
+          30.029998247000037
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70003,
+        "education" : "Some College",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.216315149026173,
+        "POINT_Y" : 30.029998246614014,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.129202440999961,
+          29.991999183000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70005,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.129202441132634,
+        "POINT_Y" : 29.991999183027815,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.130651351999973,
+          30.011104758000045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70005,
+        "education" : "High School Degree",
+        "mother_ed" : "Associate's Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.130651351989286,
+        "POINT_Y" : 30.011104757540124,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.95831239599994,
+          29.948469308000028
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70043,
+        "education" : "Some High School",
+        "mother_ed" : "Some High School",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -89.958312396489021,
+        "POINT_Y" : 29.948469308399751,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.254931686999953,
+          30.019679926000038
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70065,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.254931687342605,
+        "POINT_Y" : 30.019679925801825,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.261399984999969,
+          30.026797456000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70065,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Don't Know",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.261399985425214,
+        "POINT_Y" : 30.026797455900294,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.243028440999979,
+          30.03685644400008
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70065,
+        "education" : "Some College",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.24302844117409,
+        "POINT_Y" : 30.036856444346768,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.255081964999988,
+          30.043695296000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "ethnicity" : "Hispanic",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70065,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.255081965299098,
+        "POINT_Y" : 30.043695295557939,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.116049394999948,
+          29.731871972000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70067,
+        "education" : "Some College",
+        "mother_ed" : "Associate's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.116049395153539,
+        "POINT_Y" : 29.731871971858311,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.311417308999978,
+          29.820443442000055
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70070,
+        "education" : "Some College",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -90.311417308844511,
+        "POINT_Y" : 29.820443442262672,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.116459181999971,
+          29.767561300000068
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70072,
+        "education" : "Associate's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -90.11645918190419,
+        "POINT_Y" : 29.767561300131433,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.924348761999966,
+          29.935414909000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70075,
+        "education" : "Some High School",
+        "mother_ed" : "Some High School",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -89.924348761818123,
+        "POINT_Y" : 29.935414908845701,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.087186181999982,
+          29.921446545000038
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70115,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.087186182499181,
+        "POINT_Y" : 29.921446545064157,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.09758392599997,
+          29.934225627000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70115,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.097583926307266,
+        "POINT_Y" : 29.934225627324281,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.110914599999944,
+          29.935219009000036
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70115,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.110914600382387,
+        "POINT_Y" : 29.935219009440004,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.062516080999956,
+          29.991674859000057
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70122,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -90.062516080770251,
+        "POINT_Y" : 29.991674858770921,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.210113373999945,
+          29.938351999000076
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70123,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.210113373957029,
+        "POINT_Y" : 29.938351999066697,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.18506258299999,
+          29.940453042000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70123,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.185062583261697,
+        "POINT_Y" : 29.940453041778255,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.102097422999975,
+          30.003947095000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70124,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.102097422713769,
+        "POINT_Y" : 30.00394709534919,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.105388559999938,
+          29.945199797000043
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "ethnicity" : "African American",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70125,
+        "education" : "High School Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.10538855984629,
+        "POINT_Y" : 29.94519979683588,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.791954171999976,
+          30.082237849000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "ethnicity" : "Asian",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70129,
+        "education" : "Some High School",
+        "mother_ed" : "Don't Know",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -89.791954172180908,
+        "POINT_Y" : 30.08223784854107,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.943557203999944,
+          29.908287963000078
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70131,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -89.943557203872217,
+        "POINT_Y" : 29.908287963293617,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.164022925999973,
+          29.867051434000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70339,
+        "education" : "Some College",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -91.164022926029475,
+        "POINT_Y" : 29.8670514336103,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.087989175999951,
+          30.026253707000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70341,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Bachelor's Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.087989175521386,
+        "POINT_Y" : 30.026253707249907,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.801621526999952,
+          29.562121387000047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70360,
+        "education" : "Some High School",
+        "mother_ed" : "Associate's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.801621527338796,
+        "POINT_Y" : 29.562121386866806,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.948734684999977,
+          29.899411737000037
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70390,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Don't Know",
+        "father_ed" : "Graduate Degree",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.948734684599629,
+        "POINT_Y" : 29.899411737406524,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.53488144399995,
+          30.471768946000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70403,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.534881444167922,
+        "POINT_Y" : 30.471768946421264,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.372969779999949,
+          30.503130274000057
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70403,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.372969779640641,
+        "POINT_Y" : 30.503130273660588,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.92347166899998,
+          30.575500401000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70431,
+        "education" : "High School Degree",
+        "mother_ed" : "Some High School",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -89.92347166865602,
+        "POINT_Y" : 30.575500400870112,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.09454384199995,
+          30.451656770000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70433,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -90.094543842100052,
+        "POINT_Y" : 30.451656770030638,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.074489600999982,
+          30.464766284000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70433,
+        "education" : "High School Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.074489601325297,
+        "POINT_Y" : 30.464766283859433,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.521449875999963,
+          30.799671093000029
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70436,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Associate's Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -90.521449875594385,
+        "POINT_Y" : 30.799671093339043,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -89.839360315999954,
+          30.278737895000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70460,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -89.83936031637063,
+        "POINT_Y" : 30.278737895129268,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.129469188999963,
+          30.392845556000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70471,
+        "education" : "Graduate Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.12946918876321,
+        "POINT_Y" : 30.392845556421037,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.084016029999987,
+          30.148089909000078
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "31-40",
+        "zipcode" : 70503,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Graduate Degree",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -92.084016029828206,
+        "POINT_Y" : 30.148089909414693,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.059697294999978,
+          30.177627031000043
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70503,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -92.059697295192791,
+        "POINT_Y" : 30.177627031142947,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.042313563999983,
+          30.153875855000024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70508,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -92.042313564320693,
+        "POINT_Y" : 30.153875855121612,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.919735605999961,
+          30.129053885000076
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70518,
+        "education" : "High School Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.91973560616691,
+        "POINT_Y" : 30.129053884918619,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.056300595999971,
+          30.319223364000038
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70520,
+        "education" : "Associate's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -92.056300595720188,
+        "POINT_Y" : 30.319223364464506,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.724788686999943,
+          30.04691383200003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 41,
+        "ethnicity" : "Native American or Pacific Islander",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70563,
+        "education" : "High School Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -91.724788687087312,
+        "POINT_Y" : 30.046913831769018,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.808170884999981,
+          30.215474459000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 42,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70582,
+        "education" : "Some College",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -91.808170884573542,
+        "POINT_Y" : 30.215474458635754,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.28802991699996,
+          30.129728444000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 43,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70605,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -93.288029917113818,
+        "POINT_Y" : 30.129728444279181,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.149268475999975,
+          30.382203508000032
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 44,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70611,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -93.149268475581835,
+        "POINT_Y" : 30.382203508089049,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.318273528999953,
+          30.869800740000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 45,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "23-30",
+        "zipcode" : 70634,
+        "education" : "Some College",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -93.318273528630755,
+        "POINT_Y" : 30.869800740265134,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.295760064999968,
+          30.23304696200006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 46,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70669,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Graduate Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -93.295760065332502,
+        "POINT_Y" : 30.233046961666389,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.948975161999954,
+          30.550509550000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 47,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70706,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -90.948975161827093,
+        "POINT_Y" : 30.550509549904234,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.913849877999951,
+          30.623586244000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 48,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70706,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -90.913849877802932,
+        "POINT_Y" : 30.623586244248884,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.300769675999959,
+          30.382727751000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 49,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70719,
+        "education" : "Associate's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -91.300769676264849,
+        "POINT_Y" : 30.382727751285984,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.911365234999948,
+          30.425672540000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 50,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70726,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -90.911365234903087,
+        "POINT_Y" : 30.425672540204005,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.984748388999947,
+          30.19913209300006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 51,
+        "ethnicity" : "Other",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70734,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -90.984748389205606,
+        "POINT_Y" : 30.199132093128128,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.90526725999996,
+          30.21548606600004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 52,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70737,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -90.90526725974928,
+        "POINT_Y" : 30.215486066028859,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.917431824999937,
+          30.270218761000024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 53,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70737,
+        "education" : "High School Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.917431824515972,
+        "POINT_Y" : 30.270218760661351,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.955948957999965,
+          30.615923463000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 54,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70739,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Don't Know",
+        "father_ed" : "Bachelor's Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.955948958371607,
+        "POINT_Y" : 30.61592346291053,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.926743344999977,
+          30.657148661000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 55,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70739,
+        "education" : "Associate's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.926743344521583,
+        "POINT_Y" : 30.657148660834707,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.396175532999962,
+          30.468445962000033
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 56,
+        "ethnicity" : "African American",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70767,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "Bachelor's Degree",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -91.396175533379221,
+        "POINT_Y" : 30.468445961508792,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.983283254999947,
+          30.30344382800007
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 57,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70769,
+        "education" : "High School Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.983283255008132,
+        "POINT_Y" : 30.303443828406046,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.891026359999955,
+          30.320272648000071
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 58,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70769,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -90.891026360220508,
+        "POINT_Y" : 30.320272647547995,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -90.806606779999981,
+          30.229173676000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 59,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70774,
+        "education" : "High School Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -90.806606779711217,
+        "POINT_Y" : 30.229173676066068,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.151036372999954,
+          30.480232011000055
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 60,
+        "ethnicity" : "African American",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70805,
+        "education" : "High School Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.151036372962608,
+        "POINT_Y" : 30.480232010826114,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.114218122999944,
+          30.45487188900006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 61,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70806,
+        "education" : "High School Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "High School Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.114218123455487,
+        "POINT_Y" : 30.454871888837602,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.234467134999989,
+          30.52818701700005
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 62,
+        "ethnicity" : "African American",
+        "gender" : "Female",
+        "age" : "23-30",
+        "zipcode" : 70807,
+        "education" : "High School Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -91.234467135119132,
+        "POINT_Y" : 30.528187016647394,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.122941777999984,
+          30.366959993000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 63,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70808,
+        "education" : "Some College",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.122941778091217,
+        "POINT_Y" : 30.366959993324997,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.139755168999955,
+          30.396757243000025
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 64,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70808,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -91.139755168805038,
+        "POINT_Y" : 30.396757242718536,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.139784073999976,
+          30.424151198000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 65,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70808,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.139784073990768,
+        "POINT_Y" : 30.424151197959304,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.095112249999943,
+          30.342979781000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 66,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 70810,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -91.095112250307466,
+        "POINT_Y" : 30.342979781433939,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.060686535999992,
+          30.477663706000044
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 67,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "23-30",
+        "zipcode" : 70814,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Bachelor's Degree",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -91.060686535944569,
+        "POINT_Y" : 30.477663705914779,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.018068276999941,
+          30.440036141000064
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 68,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70816,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -91.018068276709016,
+        "POINT_Y" : 30.440036140834309,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.21205293099996,
+          30.369725479000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 69,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70820,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -91.212052931370692,
+        "POINT_Y" : 30.369725479009333,
+        "question1" : "FALSE",
+        "question2" : "TRUE",
+        "marker_type" : 3
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.184581113999968,
+          30.386818955000024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 70,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 70820,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Bachelor's Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -91.184581113794707,
+        "POINT_Y" : 30.38681895492283,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.716876757999955,
+          32.443184341000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 71,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 71105,
+        "education" : "Some College",
+        "mother_ed" : "Some High School",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably no",
+        "POINT_X" : -93.716876757942259,
+        "POINT_Y" : 32.443184340983748,
+        "question1" : "TRUE",
+        "question2" : "TRUE",
+        "marker_type" : 1
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.706196648999992,
+          32.449516224000035
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 72,
+        "ethnicity" : "African American",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 71105,
+        "education" : "Some College",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -93.70619664902631,
+        "POINT_Y" : 32.449516224338822,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.209556317999954,
+          32.697471975000042
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 73,
+        "ethnicity" : "White",
+        "gender" : "Male",
+        "age" : "18-22",
+        "zipcode" : 71241,
+        "education" : "Associate's Degree",
+        "mother_ed" : "High School Degree",
+        "father_ed" : "Some College",
+        "stayInLA" : "Definitely no",
+        "POINT_X" : -92.209556318413775,
+        "POINT_Y" : 32.697471974698772,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -91.346339139999941,
+          32.646134502000052
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 74,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 71254,
+        "education" : "Some College",
+        "mother_ed" : "Some College",
+        "father_ed" : "Some College",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -91.346339140211057,
+        "POINT_Y" : 32.64613450192212,
+        "question1" : "TRUE",
+        "question2" : "FALSE",
+        "marker_type" : 2
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.466072418999943,
+          31.294351609000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 75,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "40-51+",
+        "zipcode" : 71301,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Graduate Degree",
+        "stayInLA" : "Probably yes",
+        "POINT_X" : -92.466072418789167,
+        "POINT_Y" : 31.294351608708894,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.500791624999977,
+          31.326002095000035
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 76,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 71303,
+        "education" : "Graduate Degree",
+        "mother_ed" : "Some College",
+        "father_ed" : "Associate's Degree",
+        "stayInLA" : "Undecided",
+        "POINT_X" : -92.500791625368663,
+        "POINT_Y" : 31.326002094551427,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.510101720999955,
+          31.152867044000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 77,
+        "ethnicity" : "White",
+        "gender" : "Female",
+        "age" : "18-22",
+        "zipcode" : 71485,
+        "education" : "Bachelor's Degree",
+        "mother_ed" : "Graduate Degree",
+        "father_ed" : "Bachelor's Degree",
+        "stayInLA" : "Definitely yes",
+        "POINT_X" : -92.510101720690727,
+        "POINT_Y" : 31.152867044147797,
+        "question1" : "FALSE",
+        "question2" : "FALSE",
+        "marker_type" : 4
+      }
+    }
+  ]
+}
