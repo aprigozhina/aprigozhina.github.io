@@ -15,6 +15,14 @@
   font-weight: normal
 }
 
+.list {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14px
+}
+
 .legend {
   margin-bottom: 25px;
   font-family: "Helvetica Neue", sans-serif;

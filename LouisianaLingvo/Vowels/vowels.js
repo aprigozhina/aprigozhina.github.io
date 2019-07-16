@@ -3,6 +3,7 @@ let myMap = L.map('vowels').setView([30.00, -91.00], 9)
 // Basemap tiles
 let OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
+	minZoom: 6,
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap)
 
@@ -63,7 +64,20 @@ jQuery.getJSON(dressUrl, function (data) {
 					"Origin":"#A569BD",
 					"Interim":"#5DADE2",
 					"Current":"#2471A3"
-				};
+				}
+				var hasSound = feature.properties.speaker
+				if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: colors[feature.properties.ziptype],
+					color: 'red',
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8,
+					clickable: true,
+					pane: 'markers'
+				})
+				} else {
 				return L.circleMarker(latlng, {
 					radius: 7,
 					fillColor: colors[feature.properties.ziptype],
@@ -73,7 +87,8 @@ jQuery.getJSON(dressUrl, function (data) {
 					fillOpacity: 0.8,
 					clickable: true,
 					pane: 'markers'
-				});
+				})
+				}
 			}
 	})
 })
@@ -106,21 +121,35 @@ let onEachFeature1 = function (feature, layer) {
  	vowels = L.geoJson(data, {
  		 onEachFeature: onEachFeature2,
  			pointToLayer: function (feature,latlng) {
- 				var colors = {
- 					"Origin":"#A569BD",
- 					"Interim":"#5DADE2",
- 					"Current":"#2471A3"
- 				};
- 				return L.circleMarker(latlng, {
- 					radius: 7,
- 					fillColor: colors[feature.properties.ziptype],
- 					color: colors[feature.properties.ziptype],
- 					weight: 1,
- 					opacity: 1,
- 					fillOpacity: 0.8,
- 					clickable: true,
- 					pane: 'markers'
- 				});
+				var colors = {
+					"Origin":"#A569BD",
+					"Interim":"#5DADE2",
+					"Current":"#2471A3"
+				}
+				var hasSound = feature.properties.speaker
+				if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: colors[feature.properties.ziptype],
+					color: 'red',
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8,
+					clickable: true,
+					pane: 'markers'
+				})
+				} else {
+				return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: colors[feature.properties.ziptype],
+					color: colors[feature.properties.ziptype],
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8,
+					clickable: true,
+					pane: 'markers'
+				})
+				}
  			}
  	})
  })
@@ -157,7 +186,20 @@ let onEachFeature1 = function (feature, layer) {
 					 "Origin":"#A569BD",
 					 "Interim":"#5DADE2",
 					 "Current":"#2471A3"
-				 };
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
 				 return L.circleMarker(latlng, {
 					 radius: 7,
 					 fillColor: colors[feature.properties.ziptype],
@@ -167,7 +209,8 @@ let onEachFeature1 = function (feature, layer) {
 					 fillOpacity: 0.8,
 					 clickable: true,
 					 pane: 'markers'
-				 });
+				 })
+				 }
 			 }
 	 })
 	})
@@ -200,21 +243,35 @@ let onEachFeature1 = function (feature, layer) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature4,
  			 pointToLayer: function (feature,latlng) {
- 				 var colors = {
- 					 "Origin":"#A569BD",
- 					 "Interim":"#5DADE2",
- 					 "Current":"#2471A3"
- 				 };
- 				 return L.circleMarker(latlng, {
- 					 radius: 7,
- 					 fillColor: colors[feature.properties.ziptype],
- 					 color: colors[feature.properties.ziptype],
- 					 weight: 1,
- 					 opacity: 1,
- 					 fillOpacity: 0.8,
- 					 clickable: true,
- 					 pane: 'markers'
- 				 });
+				 var colors = {
+					 "Origin":"#A569BD",
+					 "Interim":"#5DADE2",
+					 "Current":"#2471A3"
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
+				 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: colors[feature.properties.ziptype],
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 }
  			 }
  	 })
  	})
@@ -247,21 +304,35 @@ let onEachFeature1 = function (feature, layer) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature5,
  			 pointToLayer: function (feature,latlng) {
- 				 var colors = {
- 					 "Origin":"#A569BD",
- 					 "Interim":"#5DADE2",
- 					 "Current":"#2471A3"
- 				 };
- 				 return L.circleMarker(latlng, {
- 					 radius: 7,
- 					 fillColor: colors[feature.properties.ziptype],
- 					 color: colors[feature.properties.ziptype],
- 					 weight: 1,
- 					 opacity: 1,
- 					 fillOpacity: 0.8,
- 					 clickable: true,
- 					 pane: 'markers'
- 				 });
+				 var colors = {
+					 "Origin":"#A569BD",
+					 "Interim":"#5DADE2",
+					 "Current":"#2471A3"
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
+				 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: colors[feature.properties.ziptype],
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 }
  			 }
  	 })
  	})
@@ -294,21 +365,35 @@ let onEachFeature1 = function (feature, layer) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature6,
  			 pointToLayer: function (feature,latlng) {
- 				 var colors = {
- 					 "Origin":"#A569BD",
- 					 "Interim":"#5DADE2",
- 					 "Current":"#2471A3"
- 				 };
- 				 return L.circleMarker(latlng, {
- 					 radius: 7,
- 					 fillColor: colors[feature.properties.ziptype],
- 					 color: colors[feature.properties.ziptype],
- 					 weight: 1,
- 					 opacity: 1,
- 					 fillOpacity: 0.8,
- 					 clickable: true,
- 					 pane: 'markers'
- 				 });
+				 var colors = {
+					 "Origin":"#A569BD",
+					 "Interim":"#5DADE2",
+					 "Current":"#2471A3"
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
+				 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: colors[feature.properties.ziptype],
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 }
  			 }
  	 })
  	})
@@ -341,21 +426,35 @@ let onEachFeature1 = function (feature, layer) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature7,
  			 pointToLayer: function (feature,latlng) {
- 				 var colors = {
- 					 "Origin":"#A569BD",
- 					 "Interim":"#5DADE2",
- 					 "Current":"#2471A3"
- 				 };
- 				 return L.circleMarker(latlng, {
- 					 radius: 7,
- 					 fillColor: colors[feature.properties.ziptype],
- 					 color: colors[feature.properties.ziptype],
- 					 weight: 1,
- 					 opacity: 1,
- 					 fillOpacity: 0.8,
- 					 clickable: true,
- 					 pane: 'markers'
- 				 });
+				 var colors = {
+					 "Origin":"#A569BD",
+					 "Interim":"#5DADE2",
+					 "Current":"#2471A3"
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
+				 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: colors[feature.properties.ziptype],
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 }
  			 }
  	 })
  	})
@@ -388,21 +487,35 @@ let onEachFeature1 = function (feature, layer) {
  	 vowels = L.geoJson(data, {
  			onEachFeature: onEachFeature8,
  			 pointToLayer: function (feature,latlng) {
- 				 var colors = {
- 					 "Origin":"#A569BD",
- 					 "Interim":"#5DADE2",
- 					 "Current":"#2471A3"
- 				 };
- 				 return L.circleMarker(latlng, {
- 					 radius: 7,
- 					 fillColor: colors[feature.properties.ziptype],
- 					 color: colors[feature.properties.ziptype],
- 					 weight: 1,
- 					 opacity: 1,
- 					 fillOpacity: 0.8,
- 					 clickable: true,
- 					 pane: 'markers'
- 				 });
+				 var colors = {
+					 "Origin":"#A569BD",
+					 "Interim":"#5DADE2",
+					 "Current":"#2471A3"
+				 }
+				 var hasSound = feature.properties.speaker
+				 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: 'red',
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 } else {
+				 return L.circleMarker(latlng, {
+					 radius: 7,
+					 fillColor: colors[feature.properties.ziptype],
+					 color: colors[feature.properties.ziptype],
+					 weight: 1,
+					 opacity: 1,
+					 fillOpacity: 0.8,
+					 clickable: true,
+					 pane: 'markers'
+				 })
+				 }
  			 }
  	 })
  	})
@@ -439,7 +552,20 @@ let onEachFeature1 = function (feature, layer) {
 						 "Origin":"#A569BD",
 						 "Interim":"#5DADE2",
 						 "Current":"#2471A3"
-					 };
+					 }
+					 var hasSound = feature.properties.speaker
+					 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+						 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: 'red',
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 } else {
 					 return L.circleMarker(latlng, {
 						 radius: 7,
 						 fillColor: colors[feature.properties.ziptype],
@@ -449,7 +575,8 @@ let onEachFeature1 = function (feature, layer) {
 						 fillOpacity: 0.8,
 						 clickable: true,
 						 pane: 'markers'
-					 });
+					 })
+					 }
 				 }
 		 })
 		})
@@ -483,21 +610,35 @@ let onEachFeature1 = function (feature, layer) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature10,
 	 			 pointToLayer: function (feature,latlng) {
-	 				 var colors = {
-	 					 "Origin":"#A569BD",
-	 					 "Interim":"#5DADE2",
-	 					 "Current":"#2471A3"
-	 				 };
-	 				 return L.circleMarker(latlng, {
-	 					 radius: 7,
-	 					 fillColor: colors[feature.properties.ziptype],
-	 					 color: colors[feature.properties.ziptype],
-	 					 weight: 1,
-	 					 opacity: 1,
-	 					 fillOpacity: 0.8,
-	 					 clickable: true,
-	 					 pane: 'markers'
-	 				 });
+					 var colors = {
+						 "Origin":"#A569BD",
+						 "Interim":"#5DADE2",
+						 "Current":"#2471A3"
+					 }
+					 var hasSound = feature.properties.speaker
+					 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+						 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: 'red',
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 } else {
+					 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: colors[feature.properties.ziptype],
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 }
 	 			 }
 	 	 })
 	 	})
@@ -530,21 +671,35 @@ let onEachFeature1 = function (feature, layer) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature11,
 	 			 pointToLayer: function (feature,latlng) {
-	 				 var colors = {
-	 					 "Origin":"#A569BD",
-	 					 "Interim":"#5DADE2",
-	 					 "Current":"#2471A3"
-	 				 };
-	 				 return L.circleMarker(latlng, {
-	 					 radius: 7,
-	 					 fillColor: colors[feature.properties.ziptype],
-	 					 color: colors[feature.properties.ziptype],
-	 					 weight: 1,
-	 					 opacity: 1,
-	 					 fillOpacity: 0.8,
-	 					 clickable: true,
-	 					 pane: 'markers'
-	 				 });
+					 var colors = {
+						 "Origin":"#A569BD",
+						 "Interim":"#5DADE2",
+						 "Current":"#2471A3"
+					 }
+					 var hasSound = feature.properties.speaker
+					 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+						 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: 'red',
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 } else {
+					 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: colors[feature.properties.ziptype],
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 }
 	 			 }
 	 	 })
 	 	})
@@ -578,21 +733,35 @@ let onEachFeature1 = function (feature, layer) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature12,
 	 			 pointToLayer: function (feature,latlng) {
-	 				 var colors = {
-	 					 "Origin":"#A569BD",
-	 					 "Interim":"#5DADE2",
-	 					 "Current":"#2471A3"
-	 				 };
-	 				 return L.circleMarker(latlng, {
-	 					 radius: 7,
-	 					 fillColor: colors[feature.properties.ziptype],
-	 					 color: colors[feature.properties.ziptype],
-	 					 weight: 1,
-	 					 opacity: 1,
-	 					 fillOpacity: 0.8,
-	 					 clickable: true,
-	 					 pane: 'markers'
-	 				 });
+					 var colors = {
+						 "Origin":"#A569BD",
+						 "Interim":"#5DADE2",
+						 "Current":"#2471A3"
+					 }
+					 var hasSound = feature.properties.speaker
+					 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+						 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: 'red',
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 } else {
+					 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: colors[feature.properties.ziptype],
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 }
 	 			 }
 	 	 })
 	 	})
@@ -625,21 +794,35 @@ let onEachFeature1 = function (feature, layer) {
 	 	 vowels = L.geoJson(data, {
 	 			onEachFeature: onEachFeature13,
 	 			 pointToLayer: function (feature,latlng) {
-	 				 var colors = {
-	 					 "Origin":"#A569BD",
-	 					 "Interim":"#5DADE2",
-	 					 "Current":"#2471A3"
-	 				 };
-	 				 return L.circleMarker(latlng, {
-	 					 radius: 7,
-	 					 fillColor: colors[feature.properties.ziptype],
-	 					 color: colors[feature.properties.ziptype],
-	 					 weight: 1,
-	 					 opacity: 1,
-	 					 fillOpacity: 0.8,
-	 					 clickable: true,
-	 					 pane: 'markers'
-	 				 });
+					 var colors = {
+						 "Origin":"#A569BD",
+						 "Interim":"#5DADE2",
+						 "Current":"#2471A3"
+					 }
+					 var hasSound = feature.properties.speaker
+					 if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+						 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: 'red',
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 } else {
+					 return L.circleMarker(latlng, {
+						 radius: 7,
+						 fillColor: colors[feature.properties.ziptype],
+						 color: colors[feature.properties.ziptype],
+						 weight: 1,
+						 opacity: 1,
+						 fillOpacity: 0.8,
+						 clickable: true,
+						 pane: 'markers'
+					 })
+					 }
 	 			 }
 	 	 })
 	 	})
@@ -680,7 +863,20 @@ jQuery.getJSON(trapUrl, function (data) {
 					"Origin":"#A569BD",
 					"Interim":"#5DADE2",
 					"Current":"#2471A3"
-				};
+				}
+				var hasSound = feature.properties.speaker
+				if (hasSound === 'LK' || hasSound === 'LJ' || hasSound === 'AC' || hasSound === 'BC') {
+					return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: colors[feature.properties.ziptype],
+					color: 'red',
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8,
+					clickable: true,
+					pane: 'markers'
+				})
+				} else {
 				return L.circleMarker(latlng, {
 					radius: 7,
 					fillColor: colors[feature.properties.ziptype],
@@ -690,9 +886,10 @@ jQuery.getJSON(trapUrl, function (data) {
 					fillOpacity: 0.8,
 					clickable: true,
 					pane: 'markers'
-				});
+				})
+				}
 			}
-	}).addTo(myMap)
+	})
 })
 
 // add pop-ups TRAP
@@ -804,7 +1001,7 @@ let baseLayers = {
 }
 
 let overlays = {
-"OSM": OpenStreetMap_Mapnik,
+"Base Map": OpenStreetMap_Mapnik,
 "Parishes": parishesLayer,
 "ZIP codes": zipCodeLayer
 }

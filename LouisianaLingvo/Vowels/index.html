@@ -27,7 +27,7 @@
             <a class="nav-link" href="https://aprigozhina.github.io/LouisianaLingvo/Modals/index.html">Double Modals<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="https://aprigozhina.github.io/LouisianaLingvo/Vowels/index.html">Vowels Pronunciation<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://aprigozhina.github.io/LouisianaLingvo/Vowels/index.html">Vowel Pronunciation<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -36,10 +36,30 @@
     <!-- Main content -->
     <table style="width:100%">
       <tr>
-        <th><div id="vowels"></div></th>
-        <th>
-          
-          <div class="disclaimer">Click on the point to see speaker info and listen to selected vowel pronunciation</div>
+        <td colspan="2">
+          <div class="disclaimer">
+            <p class="list"><strong>Vowel pronunciation</strong> is one of the major contributors to the difference in English accents.
+            This map illustrates some differences in vowel pronunciation in Louisiana state, based on the data collected by Quintrelé Jones and Irina Shport in 2018-2019.
+            Shport and Johnson compared vowels in African-American residents of New Iberia, New Orleans, and the speakers
+            who relocated from New Orleans to New Iberia after Hurricane Katrina in 2005. In addition, data from European-American residents
+            of New Iberia were also recorded. Audio files on the current map are available only for speakers LK
+            (female, African-American), LJ (male, African-American), AC (female, European-American), BC (male, European-American) (circled in red).</p>
+              <p class="list"><strong>How to use this map: </strong></p>
+              <p class="list">- Select a vowel on the right.</p>
+              <p class="list">- Click on a point to see speaker’s demographic information and listen to selected vowel pronunciation in words.</p>
+              <p class="list">* Education Index is a percentage of ZIP code area adult population with a college degree
+                              (U.S. Census Bureau, 2013-2017 American Community Survey 5-Year Estimates, Table B15002:
+                              Sex by Educational Attainment for the Population 25 Years and Over, retrieved from
+              <a href = "https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">American Fact Finder</a>).</p>
+              <p class="list">** Long-term residence locations are shown by ZIP code</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><div id="vowels"></div></td>
+        <td>
+
+          <!-- <div class="disclaimer">Click on the point to see speaker info and listen to selected vowel pronunciation</div> -->
 
           <div class="legend">
             <div class="tableName">Location Types</div>
@@ -69,12 +89,20 @@
                   </td>
                   <td class="rightCol">Current</td>
                 </tr>
+                <tr>
+                  <td class="leftCol">
+                    <svg height="22" width="22">
+                      <circle cx="11" cy="11" r="7" stroke="red" stroke-width="1" fill="white" />
+                    </svg>
+                  </td>
+                  <td class="rightCol">has audio files</td>
+                </tr>
               </tbody>
             </table>
           </div>
 
           <div class="legend">
-            <div class="tableName">Education Index*</div>
+            <div class="tableName">Education Index</div>
             <table>
               <tbody>
                 <tr>
@@ -119,14 +147,13 @@
                 </tr>
               </tbody>
             </table>
-            <div class="comments">*<b>Education Index</b> is a percentage of ZIP code area population 25 years and over with education level equals to or higher than college degree (based on data from U.S. Census Bureau, 2013-2017 American Community Survey 5-Year Estimates, table B15002: Sex by Educational Attainment for the Population 25 Years and Over)</div>
           </div>
 
-        </th>
+        </td>
       </tr>
     </table>
 
-    <div class="disclaimer">***Long-term residence locations are shown by ZIP code</div>
+    <!-- <div class="disclaimer">***Long-term residence locations are shown by ZIP code</div> -->
 
     <!-- jQuery library; JSON plug-in -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
