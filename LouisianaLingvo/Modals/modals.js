@@ -19,6 +19,9 @@ let zipCodeLayer = L.layerGroup().addTo(myMap)
 myMap.createPane('markers')
 myMap.getPane('markers').style.zIndex = 650
 
+myMap.createPane('markersLower')
+myMap.getPane('markersLower').style.zIndex = 590
+
 // variables for markers
 var answerYY = L.icon({
 	iconUrl: 'https://aprigozhina.github.io/LouisianaLingvo/Modals/yesyes.png',
@@ -104,7 +107,7 @@ jQuery.getJSON(lingvoData4, function (data) {
 				opacity: 1,
 				fillOpacity: 0.7,
 				clickable: true,
-				pane: 'markers'
+				pane: 'markersLower'
 			});
 		}
 	})
