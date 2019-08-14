@@ -1,13 +1,24 @@
+/* This file contains styles and properties for HTML code */
+
+/* The map placeholder */
 #losangeles_sites {
   height: 600px;
   width: 100%;
-  text-align: left
+  text-align: left;
+  margin-top: 30px
 }
 
+/* A whole page */
 body {
   padding-top: 3.5rem
 }
+/* All cells in all tables */
+td {
+  vertical-align: top;
+}
 
+
+/* Object classes */
 .starter-template {
   padding: 1rem 1rem;
   text-align: center
@@ -18,53 +29,26 @@ body {
 }
 
 .legend {
-  text-align: left
-}
-
-.tablehead {
-  text-align: center;
-  border: 1px solid black
-}
-
-.legendrow {
   text-align: left;
-  padding: 0.2rem;
-  border: 1px solid black
+  margin-left: 20px;
+  margin-bottom: 40px
 }
 
-.color0 {
-  background-color: #636363;
-  border: 1px solid black
+.tableName {
+  text-align: center;
+  margin-bottom: 5px
 }
 
-.color50 {
-  background-color: #ffffb2;
-  border: 1px solid black
+.leftCol {
+  text-align: center;
+  width: 75px
 }
 
-.color100 {
-  background-color: #fed976;
-  border: 1px solid black
-}
-
-.color150 {
-  background-color: #feb24c;
-  border: 1px solid black
-}
-
-.color200 {
-  background-color: #fd8d3c;
-  border: 1px solid black
-}
-
-.color250 {
-  background-color: #f03b20;
-  border: 1px solid black
-}
-
-.color300 {
-  background-color: #bd0026;
-  border: 1px solid black
+.rightCol {
+  text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 300px;
+  font-weight: normal
 }
 
 .footer {

@@ -1,16 +1,21 @@
 #miami_sites {
   height: 600px;
-  text-align: left
+  width: 100%;
+  text-align: left;
+  margin-top: 30px
 }
 
-#miami_parking {
-  height: 600px
-}
-
+/* A whole page */
 body {
   padding-top: 3.5rem
 }
+/* All cells in all tables */
+td {
+  vertical-align: top;
+}
 
+
+/* Object classes */
 .starter-template {
   padding: 1rem 1rem;
   text-align: center
@@ -18,6 +23,29 @@ body {
 
 .navbar {
   height: 65px
+}
+
+.legend {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 40px
+}
+
+.tableName {
+  text-align: center;
+  margin-bottom: 5px
+}
+
+.leftCol {
+  text-align: center;
+  width: 75px
+}
+
+.rightCol {
+  text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 300px;
+  font-weight: normal
 }
 
 .footer {

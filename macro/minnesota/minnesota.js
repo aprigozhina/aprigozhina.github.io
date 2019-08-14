@@ -1,5 +1,5 @@
 //  Fit the map to the map placeholder, determin a map variable, provide [x,y] coordinates of center point and default scale level
-let myMap = L.map('miami_sites').setView([25.75, -80.5], 10)
+let myMap = L.map('minnesota_sites').setView([45.10, -93.15], 9)
 
 // Basemap tiles - add basemaps from free of charge sources
 let openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -28,7 +28,7 @@ jQuery.getJSON(allSites, function (data){
 	points = L.geoJson(data, {
 		onEachFeature: sitesPopUp,
 		filter: function (feature, layer) {
-			if (feature.properties.city === "Miami") { return true } // Filters objects from this city from a whole set
+			if (feature.properties.city === "Minnesota") { return true } // Filters objects from this city from a whole set
 		},
 		pointToLayer: function(feature,latlng){ // Shows colored markers, the color depends on object properties
 			var objectType = feature.properties.treatment

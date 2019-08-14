@@ -1,122 +1,212 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- Page title -->
-    <title>Alternative futures for the American Residential Macrosystem</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="losangeles.css">
-    <!-- Insert page icon -->
-    <link rel="shortcut icon" type="icon" href="favicon.ico">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <!-- Page title -->
+  <title>American Residential Macrosystem Maps</title>
+  <!-- Links to CSS style files -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="losangeles.css">
+  <!-- Page icon -->
+  <link rel="shortcut icon" type="icon" href="favicon.ico">
+</head>
 
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-     <a class="navbar-brand" href="http://utah.edu">
-       <img src="blocku_white.png" class="d-inline-block align-top" alt="Utah State University">
-     </a>
-     <a class="navbar-brand" href="http://pataki.biology.utah.edu/">
-       <img src="urban_ecology_research_lab.png" class="d-inline-block align-top" alt="Urban Ecology Lab">
-     </a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cities</a>
-           <div class="dropdown-menu" aria-labelledby="dropdown01">
-             <a class="dropdown-item" href="https://aprigozhina.github.io/macro/losangeles/index.html">Los Angeles</a>
-             <a class="dropdown-item" href="https://aprigozhina.github.io/macro/boston/index.html">Boston</a>
-             <a class="dropdown-item" href="https://aprigozhina.github.io/macro/miami/index.html">Miami</a>
-           </div>
-         </li>
-       </ul>
-       <form class="form-inline my-2 my-lg-0">
-         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-       </form>
-     </div>
-    </nav>
-
-
-     <div class="starter-template">
-       <h1>Los Angeles</h1>
-       <p class="lead">A Los Angeles County map for "Alternative futures for the American Residential Macrosystem" project</p>
-     </div>
-     <div class="starter-template">
-       <h2>Experimental Plots</h2>
-       <p class="lead">Locations of residential, interstitial, and reference plots</p></div>
-    <div id="losangeles_sites" class="shadow p-3 mb-5 bg-white rounded"></div>
-    <main role="main" class="container">
-              <div class="legend">
-                <p>Median Households Income, US Dollars, 2017</p>
-                <table>
-                  <thead class="tablehead">
-                  <tr>
-                    <th scope="col">Color</th>
-                    <th scope="col">Income Range</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td class="color0"></td>
-                    <td class="legendrow">No income / No population</td>
-                  </tr>
-                  <tr>
-                    <td class="color50"></td>
-                    <td class="legendrow">less than 50,000</td>
-                  </tr>
-                  <tr>
-                    <td class="color100"></td>
-                    <td class="legendrow">from 50,000 to 99,999</td>
-                  </tr>
-                  <tr>
-                    <td class="color150"></td>
-                    <td class="legendrow">from 100,000 to 149,999</td>
-                  </tr>
-                  <tr>
-                    <td class="color200"></td>
-                    <td class="legendrow">from 150,000 to 199,999</td>
-                  </tr>
-                  <tr>
-                    <td class="color250"></td>
-                    <td class="legendrow">from 200,000 to 249,999</td>
-                  </tr>
-                  <tr>
-                    <td class="color300"></td>
-                    <td class="legendrow">250,000 and more</td>
-                  </tr>
-                </tbody>
-                </table>
-              </div>
-
-    <!-- Weather forecast -->
-    <div class="starter-template">
-      <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles-county/?unit=us" data-label_1="LOS ANGELES COUNTY" data-label_2="weather forecast" data-theme="weather_one" >LOS ANGELES COUNTY WEATHER</a>
-      <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-      </script>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- Link to University of Utah website -->
+    <a class="navbar-brand" href="http://utah.edu">
+      <img src="blocku_white.png" class="d-inline-block align-top" alt="Utah State University">
+    </a>
+    <!-- Link to Pataki lab website (Urban Ecology) -->
+    <a class="navbar-brand" href="http://pataki.biology.utah.edu/">
+      <img src="urban_ecology_research_lab.png" class="d-inline-block align-top" alt="Urban Ecology Lab">
+    </a>
+    <!-- Dropdown list of cities -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cities</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/baltimore/index.html">Baltimore</a>
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/boston/index.html">Boston</a>
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/losangeles/index.html">Los Angeles</a>
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/miami/index.html">Miami</a>
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/minnesota/index.html">Minnesota</a>
+            <a class="dropdown-item" href="https://aprigozhina.github.io/macro/phoenix/index.html">Phoenix</a>
+          </div>
+        </li>
+      </ul>
+      <!-- Search button (now hidden)
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
     </div>
-    </main>
+  </nav>
 
-    <!-- jQuery library; JSON plug-in -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Popper library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <!-- Bootstrap library -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Leaflet library -->
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-    <script src="losangeles.js"> </script>
+  <!-- Page content -->
 
-    <footer>
-      <div class="footer">Designed by Alina Prigozhina, 2019</div>
-    </footer>
+  <table style="width:100%">
+    <tr>
+      <!-- The Map placeholder - left 80% of the screen-->
+      <td style="width:80%">
+        <div id="losangeles_sites" class="shadow p-3 mb-5 bg-white rounded"></div>
+      </td>
 
-  </body>
+      <!-- The Legend placeholder - Right 20% of the screen-->
+      <td style="width:20%">
+      <div class="starter-template">
+        <h1>Los Angeles</h1>
+      </div>
+      <!-- Legend, part 1. Location Types Point Markers-->
+        <div class="legend">
+          <div class="tableName"><strong>Location Types</strong></div>
+          <table>
+            <tbody>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#165228" stroke-width="1" fill="#165228" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">High management</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#16B281" stroke-width="1" fill="#16B281" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">Low management</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#810f7c" stroke-width="1" fill="#810f7c" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">Reference</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#af8dc3" stroke-width="1" fill="#af8dc3" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">Interstital</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#f1a340" stroke-width="1" fill="#f1a340" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">Wildlife</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg height="22" width="22">
+                    <circle cx="11" cy="11" r="7" stroke="#045a8d" stroke-width="1" fill="#045a8d" fill-opacity="0.8" />
+                  </svg>
+                </td>
+                <td class="rightCol">Hydrology</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Legend, part 2. Households Income Choropleth Map -->
+        <div class="legend">
+          <div class="tableName"><strong>Median Households Income,<br>US Dollars, 2017</strong></div>
+          <table>
+            <tbody>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#636363" />
+                  </svg>
+                </td>
+                <td class="rightCol">No income / No population</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#ffffb2" />
+                  </svg>
+                </td>
+                <td class="rightCol">Less than 50,000</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#fed976" />
+                  </svg>
+                </td>
+                <td class="rightCol">From 50,000 to 99,999</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#feb24c" />
+                  </svg>
+                </td>
+                <td class="rightCol">From 100,000 to 149,999</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#fd8d3c" />
+                  </svg>
+                </td>
+                <td class="rightCol">From 150,000 to 199,999</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#f03b20" />
+                  </svg>
+                </td>
+                <td class="rightCol">From 200,000 to 249,999</td>
+              </tr>
+              <tr>
+                <td class="leftCol">
+                  <svg width="36" height="28">
+                    <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#bd0026" />
+                  </svg>
+                </td>
+                <td class="rightCol">From 250,000 and more</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </td>
+    </tr>
+
+  </table>
+
+  <!-- Links to JS Script files -->
+  <!-- jQuery library; JSON plug-in -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- Bootstrap library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Leaflet library -->
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+  <script src="losangeles.js"> </script>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">Designed and built by Alina Prigozhina, 2019</div>
+  </footer>
+
+</body>
 
 </html>
