@@ -1,0 +1,3329 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.887001999999939,
+          41.877830000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "city" : "Boston",
+        "id" : "BOS-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 41.877830000000003,
+        "long_" : -70.887001999999995,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.946514999999977,
+          42.224049000000036
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "city" : "Boston",
+        "id" : "BOS-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 42.224049000000001,
+        "long_" : -70.946515000000005,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.301725999999974,
+          42.302002000000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "city" : "Boston",
+        "id" : "BOS-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 42.302002000000002,
+        "long_" : -71.301726000000002,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.088764999999967,
+          42.507164000000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "city" : "Boston",
+        "id" : "BOS-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 42.507164000000003,
+        "long_" : -71.088764999999995,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.631479999999954,
+          41.912720000000036
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "city" : "Boston",
+        "id" : "BOS-I-1",
+        "treatment" : "Interstitial",
+        "name" : "Russell Millpond",
+        "lat" : 41.91272,
+        "long_" : -70.631479999999996,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.901453999999944,
+          42.221534000000077
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "city" : "Boston",
+        "id" : "BOS-I-2",
+        "treatment" : "Interstitial",
+        "name" : "Brewer Reservation",
+        "lat" : 42.221533999999998,
+        "long_" : -70.901454000000001,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.279344999999978,
+          42.271574000000044
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "city" : "Boston",
+        "id" : "BOS-I-3",
+        "treatment" : "Interstitial",
+        "name" : "Ridge Hill Reservation",
+        "lat" : 42.271574000000001,
+        "long_" : -71.279345000000006,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.029425999999944,
+          42.481839000000036
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "city" : "Boston",
+        "id" : "BOS-I-4",
+        "treatment" : "Interstitial",
+        "name" : "Breakheart Reservation",
+        "lat" : 42.481839000000001,
+        "long_" : -71.029426000000001,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.919915999999944,
+          42.704469000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "city" : "Boston",
+        "id" : "BOS-I-5",
+        "treatment" : "Interstitial",
+        "name" : "Hunsley Hills",
+        "lat" : 42.704469000000003,
+        "long_" : -70.919916000000001,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.175144999999986,
+          42.116243000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "city" : "Boston",
+        "id" : "BOS-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 42.116242999999997,
+        "long_" : -71.175145000000001,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.259108999999967,
+          42.31364700000006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "city" : "Boston",
+        "id" : "BOS-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 42.313647000000003,
+        "long_" : -71.259108999999995,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.193916999999942,
+          42.323395000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "city" : "Boston",
+        "id" : "BOS-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 42.323394999999998,
+        "long_" : -71.193916999999999,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.05848199999997,
+          42.466062000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "city" : "Boston",
+        "id" : "BOS-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 42.466062000000001,
+        "long_" : -71.058481999999998,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.651409999999942,
+          41.887900000000059
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "city" : "Boston",
+        "id" : "BOS-R-1",
+        "treatment" : "Reference",
+        "name" : "Myles Standish State Forest",
+        "lat" : 41.887900000000002,
+        "long_" : -70.651409999999998,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.166845999999964,
+          42.076057000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "city" : "Boston",
+        "id" : "BOS-R-2",
+        "treatment" : "Reference",
+        "name" : "Borderland State Park",
+        "lat" : 42.076056999999999,
+        "long_" : -71.166846000000007,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.206459999999936,
+          42.135065000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "city" : "Boston",
+        "id" : "BOS-R-3",
+        "treatment" : "Reference",
+        "name" : "Moose Hill Wildlife Sanctuary",
+        "lat" : 42.135064999999997,
+        "long_" : -71.206460000000007,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.121268999999984,
+          42.449449000000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "city" : "Boston",
+        "id" : "BOS-R-4",
+        "treatment" : "Reference",
+        "name" : "Middlesex Fells State Reservation",
+        "lat" : 42.449449000000001,
+        "long_" : -71.121268999999998,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.917739999999981,
+          42.632163000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "city" : "Boston",
+        "id" : "BOS-R-5",
+        "treatment" : "Reference",
+        "name" : "Ipswich River Wildlife Sanctuary",
+        "lat" : 42.632162999999998,
+        "long_" : -70.917739999999995,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -70.56977999999998,
+          41.805421000000081
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "city" : "Boston",
+        "id" : "BOS-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 41.805421000000003,
+        "long_" : -70.569779999999994,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.175432999999941,
+          42.430978000000039
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "city" : "Boston",
+        "id" : "BOS-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 42.430978000000003,
+        "long_" : -71.175432999999998,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.173618999999974,
+          42.372345000000053
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "city" : "Boston",
+        "id" : "BOS-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 42.372345000000003,
+        "long_" : -71.173619000000002,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -71.086027999999942,
+          42.527258000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "city" : "Boston",
+        "id" : "BOS-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 42.527258000000003,
+        "long_" : -71.086027999999999,
+        "pi_contact" : "Chris Neil"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.746309999999937,
+          39.247700000000066
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "city" : "Baltimore",
+        "id" : "BAL-REF-PSP",
+        "treatment" : "Reference",
+        "name" : "Patapsco State Park",
+        "lat" : 39.247700000000002,
+        "long_" : -76.746309999999994,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.684009999999944,
+          39.483680000000049
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "city" : "Baltimore",
+        "id" : "BAL-REF-OR2",
+        "treatment" : "Reference",
+        "name" : "Oregon Ridge Park 2",
+        "lat" : 39.48368,
+        "long_" : -76.684010000000001,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.693619999999953,
+          39.493420000000071
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "city" : "Baltimore",
+        "id" : "BAL-REF-OR1",
+        "treatment" : "Reference",
+        "name" : "Oregon Ridge Park 1",
+        "lat" : 39.49342,
+        "long_" : -76.693619999999996,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.58597999999995,
+          39.463880000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "city" : "Baltimore",
+        "id" : "BAL-REF-LRR",
+        "treatment" : "Reference",
+        "name" : "Loch Raven Reservoir",
+        "lat" : 39.463880000000003,
+        "long_" : -76.585980000000006,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.692669999999964,
+          39.314180000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "city" : "Baltimore",
+        "id" : "BAL-REF-LKP",
+        "treatment" : "Reference",
+        "name" : "Leakin Park",
+        "lat" : 39.31418,
+        "long_" : -76.692670000000007,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.573169999999948,
+          39.32946000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "city" : "Baltimore",
+        "id" : "BAL-INT-HRP",
+        "treatment" : "Interstitial",
+        "name" : "Herring Run Park",
+        "lat" : 39.329459999999997,
+        "long_" : -76.573170000000005,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.703869999999938,
+          39.324390000000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "city" : "Baltimore",
+        "id" : "BAL-INT-HP",
+        "treatment" : "Interstitial",
+        "name" : "Hillsdale Park",
+        "lat" : 39.324390000000001,
+        "long_" : -76.703869999999995,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.722239999999942,
+          39.312420000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "city" : "Baltimore",
+        "id" : "BAL-INT-DRU",
+        "treatment" : "Interstitial",
+        "name" : "Dead Run",
+        "lat" : 39.312420000000003,
+        "long_" : -76.722239999999999,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.522489999999948,
+          39.368270000000052
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "city" : "Baltimore",
+        "id" : "BAL-INT-DRP",
+        "treatment" : "Interstitial",
+        "name" : "Double Rock Park",
+        "lat" : 39.368270000000003,
+        "long_" : -76.522490000000005,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.650219999999933,
+          39.32779000000005
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "city" : "Baltimore",
+        "id" : "BAL-INT-DHP",
+        "treatment" : "Interstitial",
+        "name" : "Druid Hill Park",
+        "lat" : 39.32779,
+        "long_" : -76.650220000000004,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.550299999999936,
+          39.337330000000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "city" : "Baltimore",
+        "id" : "BAL-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 39.337330000000001,
+        "long_" : -76.550299999999993,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.760849999999948,
+          39.357010000000059
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "city" : "Baltimore",
+        "id" : "BAL-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 39.357010000000002,
+        "long_" : -76.760850000000005,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.565199999999948,
+          39.357160000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "city" : "Baltimore",
+        "id" : "BAL-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 39.35716,
+        "long_" : -76.565200000000004,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.878299999999967,
+          39.230740000000026
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "city" : "Baltimore",
+        "id" : "BAL-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 39.230739999999997,
+        "long_" : -76.878299999999996,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.598889999999983,
+          39.373720000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "city" : "Baltimore",
+        "id" : "BAL-H-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 39.373719999999999,
+        "long_" : -76.598889999999997,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.620169999999973,
+          39.423350000000028
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "city" : "Baltimore",
+        "id" : "BAL-H-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 39.423349999999999,
+        "long_" : -76.620170000000002,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 39,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.562779999999975,
+          39.424190000000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 39,
+        "city" : "Baltimore",
+        "id" : "BAL-H-3",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 39.424190000000003,
+        "long_" : -76.562780000000004,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 40,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.55359999999996,
+          39.374340000000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 40,
+        "city" : "Baltimore",
+        "id" : "BAL-H-2",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 39.374339999999997,
+        "long_" : -76.553600000000003,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 41,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.588829999999973,
+          39.397220000000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 41,
+        "city" : "Baltimore",
+        "id" : "BAL-H-1",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 39.397219999999997,
+        "long_" : -76.588830000000002,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 42,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.555109999999956,
+          39.365690000000029
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 42,
+        "city" : "Baltimore",
+        "id" : "BAL-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 39.365690000000001,
+        "long_" : -76.555109999999999,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 43,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.60445999999996,
+          39.449290000000076
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 43,
+        "city" : "Baltimore",
+        "id" : "BAL-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 39.449289999999998,
+        "long_" : -76.604460000000003,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 44,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.625089999999943,
+          39.397680000000037
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 44,
+        "city" : "Baltimore",
+        "id" : "BAL-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 39.397680000000001,
+        "long_" : -76.62509,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 45,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.564089999999965,
+          39.37647000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 45,
+        "city" : "Baltimore",
+        "id" : "BAL-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 39.376469999999998,
+        "long_" : -76.564089999999993,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 46,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.844669999999951,
+          39.35310000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 46,
+        "city" : "Baltimore",
+        "id" : "BAL-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 39.353099999999998,
+        "long_" : -76.844669999999994,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 47,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.605899999999963,
+          39.375440000000026
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 47,
+        "city" : "Baltimore",
+        "id" : "BAL-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 39.375439999999998,
+        "long_" : -76.605900000000005,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 48,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.610529999999983,
+          39.34304000000003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 48,
+        "city" : "Baltimore",
+        "id" : "BAL-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 39.343040000000002,
+        "long_" : -76.610529999999997,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 49,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -76.796789999999987,
+          39.465060000000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 49,
+        "city" : "Baltimore",
+        "id" : "BAL-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 39.465060000000001,
+        "long_" : -76.796790000000001,
+        "pi_contact" : "Peter Groffman"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 50,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.023579999999981,
+          44.938090000000045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 50,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-BC",
+        "treatment" : "Interstitial",
+        "name" : "Battle Creek Regional Park",
+        "lat" : 44.938090000000003,
+        "long_" : -93.023579999999995,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 51,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.160999999999945,
+          45.06764000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 51,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-FP",
+        "treatment" : "Interstitial",
+        "name" : "Floral Park",
+        "lat" : 45.067639999999997,
+        "long_" : -93.161000000000001,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 52,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.424309999999991,
+          44.810750000000041
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 52,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-JB",
+        "treatment" : "Interstitial",
+        "name" : "James A. Brown Conservation Area",
+        "lat" : 44.810749999999999,
+        "long_" : -93.424310000000006,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 53,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.67892999999998,
+          44.894860000000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 53,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-LM",
+        "treatment" : "Interstitial",
+        "name" : "Lake Minnetonka Regional Park",
+        "lat" : 44.894860000000001,
+        "long_" : -93.678929999999994,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 54,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.370309999999961,
+          45.140030000000081
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 54,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-OG",
+        "treatment" : "Interstitial",
+        "name" : "Oak Grove Park",
+        "lat" : 45.140030000000003,
+        "long_" : -93.370310000000003,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 55,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.483929999999987,
+          45.112950000000069
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 55,
+        "city" : "Minnesota",
+        "id" : "MSP-INT-WL",
+        "treatment" : "Interstitial",
+        "name" : "Weaver Lake Knolls Conservancy",
+        "lat" : 45.112949999999998,
+        "long_" : -93.483930000000001,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 56,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.13812999999999,
+          44.988370000000032
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 56,
+        "city" : "Minnesota",
+        "id" : "MSP-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 44.988370000000003,
+        "long_" : -93.138130000000004,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 57,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.183979999999963,
+          44.938960000000066
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 57,
+        "city" : "Minnesota",
+        "id" : "MSP-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 44.938960000000002,
+        "long_" : -93.183980000000005,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 58,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.990129999999965,
+          45.028300000000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 58,
+        "city" : "Minnesota",
+        "id" : "MSP-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 45.028300000000002,
+        "long_" : -92.990129999999994,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 59,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.345519999999965,
+          44.894000000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 59,
+        "city" : "Minnesota",
+        "id" : "MSP-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 44.893999999999998,
+        "long_" : -93.345519999999993,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 60,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.209549999999979,
+          45.026080000000036
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 60,
+        "city" : "Minnesota",
+        "id" : "MSP-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 45.02608,
+        "long_" : -93.209549999999993,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 61,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.253899999999987,
+          45.045610000000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 61,
+        "city" : "Minnesota",
+        "id" : "MSP-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 45.045610000000003,
+        "long_" : -93.253900000000002,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 62,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.317879999999946,
+          44.928780000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 62,
+        "city" : "Minnesota",
+        "id" : "MSP-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 44.928780000000003,
+        "long_" : -93.317880000000002,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 63,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.170289999999966,
+          44.915200000000027
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 63,
+        "city" : "Minnesota",
+        "id" : "MSP-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 44.915199999999999,
+        "long_" : -93.170289999999994,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 64,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.167849999999987,
+          45.390780000000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 64,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-CDR103",
+        "treatment" : "Reference",
+        "name" : "Cedar Creek Ecosystem Science Reserve BU 103",
+        "lat" : 45.390779999999999,
+        "long_" : -93.167850000000001,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 65,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.317879999999946,
+          45.388450000000034
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 65,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-CDR104",
+        "treatment" : "Reference",
+        "name" : "Cedar Creek Ecosystem Science Reserve BU 104",
+        "lat" : 45.388449999999999,
+        "long_" : -93.317880000000002,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 66,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.179029999999955,
+          45.403350000000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 66,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-CDR111",
+        "treatment" : "Reference",
+        "name" : "Cedar Creek Ecosystem Science Reserve BU 111",
+        "lat" : 45.403350000000003,
+        "long_" : -93.179029999999997,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 67,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.177129999999977,
+          45.401670000000081
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 67,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-CDR209",
+        "treatment" : "Reference",
+        "name" : "Cedar Creek Ecosystem Science Reserve BU 209",
+        "lat" : 45.401670000000003,
+        "long_" : -93.177130000000005,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 68,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.163789999999949,
+          45.381330000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 68,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-HA",
+        "treatment" : "Reference",
+        "name" : "Helen Allison Savanna",
+        "lat" : 45.381329999999998,
+        "long_" : -93.163790000000006,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 69,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.821129999999982,
+          44.798690000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 69,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-LVP",
+        "treatment" : "Reference",
+        "name" : "Lost Valley Prairie SNA",
+        "lat" : 44.798690000000001,
+        "long_" : -92.821129999999997,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 70,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -92.784989999999937,
+          45.006240000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 70,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-SCS",
+        "treatment" : "Reference",
+        "name" : "St Croix Savanna SNA",
+        "lat" : 45.006239999999998,
+        "long_" : -92.784989999999993,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 71,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.542089999999973,
+          44.986790000000042
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 71,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-WR",
+        "treatment" : "Reference",
+        "name" : "Wood Rill SNA",
+        "lat" : 44.986789999999999,
+        "long_" : -93.542090000000002,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 72,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.569519999999955,
+          45.002140000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 72,
+        "city" : "Minnesota",
+        "id" : "MSP-REF-WW",
+        "treatment" : "Reference",
+        "name" : "Wolsfeld Woods SNA",
+        "lat" : 45.002139999999997,
+        "long_" : -93.569519999999997,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 73,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.153579999999977,
+          44.957470000000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 73,
+        "city" : "Minnesota",
+        "id" : "MSP-H-1",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 44.957470000000001,
+        "long_" : -93.153580000000005,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 74,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.171419999999955,
+          44.96757000000008
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 74,
+        "city" : "Minnesota",
+        "id" : "MSP-H-2",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 44.967570000000002,
+        "long_" : -93.171419999999998,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 75,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.158109999999965,
+          44.985230000000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 75,
+        "city" : "Minnesota",
+        "id" : "MSP-H-3",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 44.985230000000001,
+        "long_" : -93.158109999999994,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 76,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.221789999999942,
+          44.937060000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 76,
+        "city" : "Minnesota",
+        "id" : "MSP-H-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 44.937060000000002,
+        "long_" : -93.221789999999999,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 77,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.162519999999972,
+          44.921620000000075
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 77,
+        "city" : "Minnesota",
+        "id" : "MSP-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 44.921619999999997,
+        "long_" : -93.162520000000001,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 78,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.381629999999973,
+          44.999570000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 78,
+        "city" : "Minnesota",
+        "id" : "MSP-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 44.999569999999999,
+        "long_" : -93.381630000000001,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 79,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.216549999999984,
+          44.989690000000053
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 79,
+        "city" : "Minnesota",
+        "id" : "MSP-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 44.989690000000003,
+        "long_" : -93.216549999999998,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 80,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -93.164299999999969,
+          44.936010000000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 80,
+        "city" : "Minnesota",
+        "id" : "MSP-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 44.936010000000003,
+        "long_" : -93.164299999999997,
+        "pi_contact" : "Jeannine Cavendar-Bares & Sarah Hobbie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 81,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.98929999999996,
+          33.357270000000028
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 81,
+        "city" : "Phoenix",
+        "id" : "PHX-INT-SME",
+        "treatment" : "Interstitial",
+        "name" : "South Mountain Park East at 46th St.",
+        "lat" : 33.35727,
+        "long_" : -111.9893,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 82,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.10219999999998,
+          33.351450000000057
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 82,
+        "city" : "Phoenix",
+        "id" : "PHX-INT-SMW",
+        "treatment" : "Interstitial",
+        "name" : "South Mountain Park West at Central Ave.",
+        "lat" : 33.35145,
+        "long_" : -112.1022,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 83,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.07959999999997,
+          33.579270000000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 83,
+        "city" : "Phoenix",
+        "id" : "PHX-INT-MVP",
+        "treatment" : "Interstitial",
+        "name" : "Mountain View Park (North Mountain)",
+        "lat" : 33.579270000000001,
+        "long_" : -112.0796,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 84,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.01209999999998,
+          33.567430000000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 84,
+        "city" : "Phoenix",
+        "id" : "PHX-INT-PMP",
+        "treatment" : "Interstitial",
+        "name" : "Phoenix Mountain Preserve",
+        "lat" : 33.567430000000002,
+        "long_" : -112.0121,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 85,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.94469999999995,
+          33.457230000000038
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 85,
+        "city" : "Phoenix",
+        "id" : "PHX-INT-DBG",
+        "treatment" : "Interstitial",
+        "name" : "Desert Botanical Garden",
+        "lat" : 33.457230000000003,
+        "long_" : -111.9447,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 86,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.90579999999994,
+          33.394670000000076
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 86,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.394669999999998,
+        "long_" : -111.9058,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 87,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.81179999999995,
+          33.431950000000029
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 87,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.431950000000001,
+        "long_" : -111.81180000000001,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 88,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.85979999999995,
+          33.345870000000048
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 88,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.345869999999998,
+        "long_" : -111.85980000000001,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 89,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.94019999999995,
+          33.396970000000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 89,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.396970000000003,
+        "long_" : -111.9402,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 90,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.90373199999999,
+          33.478409000000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 90,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-5",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.478408999999999,
+        "long_" : -111.90373200000001,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 91,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.08669799999996,
+          33.479976000000079
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 91,
+        "city" : "Phoenix",
+        "id" : "PHX-LH-6",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 33.479976000000001,
+        "long_" : -112.086698,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 92,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.90979999999996,
+          33.404270000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 92,
+        "city" : "Phoenix",
+        "id" : "PHX-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 33.404269999999997,
+        "long_" : -111.9098,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 93,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.93099999999998,
+          33.405980000000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 93,
+        "city" : "Phoenix",
+        "id" : "PHX-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 33.40598,
+        "long_" : -111.931,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 94,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.75849999999997,
+          33.429180000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 94,
+        "city" : "Phoenix",
+        "id" : "PHX-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 33.429180000000002,
+        "long_" : -111.7585,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 95,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.91619999999995,
+          33.36543000000006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 95,
+        "city" : "Phoenix",
+        "id" : "PHX-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 33.365430000000003,
+        "long_" : -111.9162,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 96,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.34359999999998,
+          33.36089000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 96,
+        "city" : "Phoenix",
+        "id" : "PHX-REF-EMP",
+        "treatment" : "Reference",
+        "name" : "Estrella Mountain Regional Park",
+        "lat" : 33.360889999999998,
+        "long_" : -112.3436,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 97,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.70569999999998,
+          33.642200000000059
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 97,
+        "city" : "Phoenix",
+        "id" : "PHX-REF-MCS",
+        "treatment" : "Reference",
+        "name" : "McDowell Mountain Regional Park",
+        "lat" : 33.642200000000003,
+        "long_" : -111.70569999999999,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 98,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.85649999999998,
+          33.644180000000063
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 98,
+        "city" : "Phoenix",
+        "id" : "PHX-REF-MSN",
+        "treatment" : "Reference",
+        "name" : "McDowell Sonoran Preserve",
+        "lat" : 33.644179999999999,
+        "long_" : -111.8565,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 99,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.61699999999996,
+          33.469320000000039
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 99,
+        "city" : "Phoenix",
+        "id" : "PHX-REF-UMP",
+        "treatment" : "Reference",
+        "name" : "Usery Mountain Regional Park",
+        "lat" : 33.469320000000003,
+        "long_" : -111.617,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 100,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.49749999999995,
+          33.606610000000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 100,
+        "city" : "Phoenix",
+        "id" : "PHX-REF-WTM",
+        "treatment" : "Reference",
+        "name" : "White Tanks Mountain Regional Park",
+        "lat" : 33.606610000000003,
+        "long_" : -112.4975,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 101,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.93479999999994,
+          33.396270000000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 101,
+        "city" : "Phoenix",
+        "id" : "PHX-RG-1",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 33.396270000000001,
+        "long_" : -111.9348,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 102,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.77229999999997,
+          33.42891000000003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 102,
+        "city" : "Phoenix",
+        "id" : "PHX-RG-2",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 33.428910000000002,
+        "long_" : -111.7723,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 103,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.91279999999995,
+          33.382360000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 103,
+        "city" : "Phoenix",
+        "id" : "PHX-RG-3",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 33.382359999999998,
+        "long_" : -111.9128,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 104,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.89889999999997,
+          33.468710000000044
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 104,
+        "city" : "Phoenix",
+        "id" : "PHX-RG-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 33.468710000000002,
+        "long_" : -111.8989,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 105,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.90679999999998,
+          33.340040000000045
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 105,
+        "city" : "Phoenix",
+        "id" : "PHX-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 33.340040000000002,
+        "long_" : -111.9068,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 106,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.81149999999997,
+          33.443850000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 106,
+        "city" : "Phoenix",
+        "id" : "PHX-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 33.443849999999998,
+        "long_" : -111.8115,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 107,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.03229999999996,
+          33.48353000000003
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 107,
+        "city" : "Phoenix",
+        "id" : "PHX-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 33.483530000000002,
+        "long_" : -112.03230000000001,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 108,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.07179999999994,
+          33.62244000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 108,
+        "city" : "Phoenix",
+        "id" : "PHX-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 33.622439999999997,
+        "long_" : -112.0718,
+        "pi_contact" : "Sharon Hall"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 109,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.33837999999997,
+          34.143278000000066
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 109,
+        "city" : "Los Angeles",
+        "id" : "LA-INT-1",
+        "treatment" : "Interstitial",
+        "name" : "Griffith Park NW",
+        "lat" : 34.143278000000002,
+        "long_" : -118.33838,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 110,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.30735199999998,
+          34.11817700000006
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 110,
+        "city" : "Los Angeles",
+        "id" : "LA-INT-2",
+        "treatment" : "Interstitial",
+        "name" : "Griffith Park S",
+        "lat" : 34.118177000000003,
+        "long_" : -118.30735199999999,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 111,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.19389499999994,
+          34.095246000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 111,
+        "city" : "Los Angeles",
+        "id" : "LA-INT-3",
+        "treatment" : "Interstitial",
+        "name" : "Ernest E Debs Park",
+        "lat" : 34.095246000000003,
+        "long_" : -118.193895,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 112,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.27993399999997,
+          34.121817000000078
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 112,
+        "city" : "Los Angeles",
+        "id" : "LA-INT-4",
+        "treatment" : "Interstitial",
+        "name" : "Griffith Park SE",
+        "lat" : 34.121817,
+        "long_" : -118.279934,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 113,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.81193399999995,
+          34.032466000000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 113,
+        "city" : "Los Angeles",
+        "id" : "LA-INT-5",
+        "treatment" : "Interstitial",
+        "name" : "Zuma Canyon",
+        "lat" : 34.032465999999999,
+        "long_" : -118.81193399999999,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 114,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52430799999996,
+          34.184612000000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 114,
+        "city" : "Los Angeles",
+        "id" : "LA-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 34.184612000000001,
+        "long_" : -118.524308,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 115,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56859399999996,
+          34.248622000000069
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 115,
+        "city" : "Los Angeles",
+        "id" : "LA-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 34.248621999999997,
+        "long_" : -118.568594,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 116,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42867499999994,
+          34.182092000000068
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 116,
+        "city" : "Los Angeles",
+        "id" : "LA-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 34.182091999999997,
+        "long_" : -118.428675,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 117,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56680899999998,
+          34.248009000000025
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 117,
+        "city" : "Los Angeles",
+        "id" : "LA-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 34.248009000000003,
+        "long_" : -118.56680900000001,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 118,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42907199999996,
+          34.174800000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 118,
+        "city" : "Los Angeles",
+        "id" : "LA-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 34.174799999999998,
+        "long_" : -118.42907200000001,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 119,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.42798699999997,
+          34.173750000000041
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 119,
+        "city" : "Los Angeles",
+        "id" : "LA-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 34.173749999999998,
+        "long_" : -118.427987,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 120,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.47935799999999,
+          34.160747000000072
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 120,
+        "city" : "Los Angeles",
+        "id" : "LA-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 34.160747000000001,
+        "long_" : -118.479358,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 121,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52498999999995,
+          34.182961000000034
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 121,
+        "city" : "Los Angeles",
+        "id" : "LA-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 34.182960999999999,
+        "long_" : -118.52499,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 122,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.38734599999998,
+          33.751734000000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 122,
+        "city" : "Los Angeles",
+        "id" : "LA-REF-1",
+        "treatment" : "Reference",
+        "name" : "Palo Verdes Hills",
+        "lat" : 33.751733999999999,
+        "long_" : -118.38734599999999,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 123,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.65668299999999,
+          34.098017000000027
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 123,
+        "city" : "Los Angeles",
+        "id" : "LA-REF-2",
+        "treatment" : "Reference",
+        "name" : "UCLA Stunt Ranch",
+        "lat" : 34.098016999999999,
+        "long_" : -118.656683,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 124,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.74976999999996,
+          34.041136000000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 124,
+        "city" : "Los Angeles",
+        "id" : "LA-REF-3",
+        "treatment" : "Reference",
+        "name" : "Solstice Canyon",
+        "lat" : 34.041136000000002,
+        "long_" : -118.74977,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 125,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.87805899999995,
+          34.059684000000061
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 125,
+        "city" : "Los Angeles",
+        "id" : "LA-REF-4",
+        "treatment" : "Reference",
+        "name" : "Charmlee Wilderness",
+        "lat" : 34.059683999999997,
+        "long_" : -118.87805899999999,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 126,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.80294699999996,
+          34.035358000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 126,
+        "city" : "Los Angeles",
+        "id" : "LA-REF-5",
+        "treatment" : "Reference",
+        "name" : "Kanan Dune",
+        "lat" : 34.035358000000002,
+        "long_" : -118.802947,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 127,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.51871399999999,
+          34.195349000000078
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 127,
+        "city" : "Los Angeles",
+        "id" : "LA-H-1",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 34.195349,
+        "long_" : -118.518714,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 128,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56081599999999,
+          34.200220000000058
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 128,
+        "city" : "Los Angeles",
+        "id" : "LA-H-2",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 34.200220000000002,
+        "long_" : -118.560816,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 129,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.46070199999997,
+          34.176630000000046
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 129,
+        "city" : "Los Angeles",
+        "id" : "LA-H-3",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 34.176630000000003,
+        "long_" : -118.460702,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 130,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.52357399999994,
+          34.210644000000059
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 130,
+        "city" : "Los Angeles",
+        "id" : "LA-H-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 34.210644000000002,
+        "long_" : -118.523574,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 131,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.55112169999995,
+          34.271813440000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 131,
+        "city" : "Los Angeles",
+        "id" : "LA-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 34.271813440000003,
+        "long_" : -118.5511217,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 132,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.45200799999998,
+          34.173969000000056
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 132,
+        "city" : "Los Angeles",
+        "id" : "LA-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 34.173969,
+        "long_" : -118.45200800000001,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 133,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.56618499999996,
+          34.246796000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 133,
+        "city" : "Los Angeles",
+        "id" : "LA-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 34.246796000000003,
+        "long_" : -118.566185,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 134,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -118.51205699999997,
+          34.195548000000031
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 134,
+        "city" : "Los Angeles",
+        "id" : "LA-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 34.195548000000002,
+        "long_" : -118.512057,
+        "pi_contact" : "Diane Pataki"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 135,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.217529999999954,
+          25.94491000000005
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 135,
+        "city" : "Miami",
+        "id" : "MIA-H-1",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 25.94491,
+        "long_" : -80.217529999999996,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 136,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.300559999999962,
+          25.713790000000074
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 136,
+        "city" : "Miami",
+        "id" : "MIA-H-2",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 25.713789999999999,
+        "long_" : -80.300560000000004,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 137,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.32645999999994,
+          25.630280000000027
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 137,
+        "city" : "Miami",
+        "id" : "MIA-H-3",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 25.630279999999999,
+        "long_" : -80.326459999999997,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 138,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.347649999999987,
+          25.618220000000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 138,
+        "city" : "Miami",
+        "id" : "MIA-H-4",
+        "treatment" : "Hydrology",
+        "name" : "Residential",
+        "lat" : 25.618220000000001,
+        "long_" : -80.347650000000002,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 139,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.24389999999994,
+          25.761300000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 139,
+        "city" : "Miami",
+        "id" : "MIA-INT-1",
+        "treatment" : "Interstitial",
+        "name" : "The Barnacle - FL State Park",
+        "lat" : 25.761299999999999,
+        "long_" : -80.243899999999996,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 140,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.310619999999972,
+          25.740230000000054
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 140,
+        "city" : "Miami",
+        "id" : "MIA-INT-2",
+        "treatment" : "Interstitial",
+        "name" : "AD Barnes - Miami Dade County",
+        "lat" : 25.74023,
+        "long_" : -80.31062,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 141,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.28013999999996,
+          25.893070000000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 141,
+        "city" : "Miami",
+        "id" : "MIA-INT-3",
+        "treatment" : "Interstitial",
+        "name" : "Amelia Earhart - Miami Dade County",
+        "lat" : 25.893070000000002,
+        "long_" : -80.280140000000003,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 142,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.37606999999997,
+          25.695720000000051
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 142,
+        "city" : "Miami",
+        "id" : "MIA-INT-4",
+        "treatment" : "Interstitial",
+        "name" : "Kendall Indian Hammocks - Miami Dade County",
+        "lat" : 25.695720000000001,
+        "long_" : -80.376069999999999,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 143,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.411239999999964,
+          25.721600000000024
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 143,
+        "city" : "Miami",
+        "id" : "MIA-LH-1",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 25.721599999999999,
+        "long_" : -80.411240000000006,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 144,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.295839999999941,
+          25.825060000000065
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 144,
+        "city" : "Miami",
+        "id" : "MIA-LH-2",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 25.825060000000001,
+        "long_" : -80.295839999999998,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 145,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.254669999999976,
+          25.720740000000035
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 145,
+        "city" : "Miami",
+        "id" : "MIA-LH-3",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 25.720739999999999,
+        "long_" : -80.254670000000004,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 146,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.304089999999974,
+          25.742490000000032
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 146,
+        "city" : "Miami",
+        "id" : "MIA-LH-4",
+        "treatment" : "High management",
+        "name" : "Residential",
+        "lat" : 25.74249,
+        "long_" : -80.304090000000002,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 147,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.36809999999997,
+          25.65772000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 147,
+        "city" : "Miami",
+        "id" : "MIA-LL-1",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 25.657720000000001,
+        "long_" : -80.368099999999998,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 148,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.16579999999999,
+          25.932470000000023
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 148,
+        "city" : "Miami",
+        "id" : "MIA-LL-2",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 25.932469999999999,
+        "long_" : -80.165800000000004,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 149,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.264929999999936,
+          25.737600000000043
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 149,
+        "city" : "Miami",
+        "id" : "MIA-LL-3",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 25.7376,
+        "long_" : -80.264930000000007,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 150,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.332949999999983,
+          25.638580000000047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 150,
+        "city" : "Miami",
+        "id" : "MIA-LL-4",
+        "treatment" : "Low management",
+        "name" : "Residential",
+        "lat" : 25.638580000000001,
+        "long_" : -80.332949999999997,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 151,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.130909999999972,
+          25.906810000000064
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 151,
+        "city" : "Miami",
+        "id" : "MIA-REF-1",
+        "treatment" : "Reference",
+        "name" : "Oleta River - FL State Park",
+        "lat" : 25.90681,
+        "long_" : -80.13091,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 152,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.308519999999987,
+          25.62602000000004
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 152,
+        "city" : "Miami",
+        "id" : "MIA-REF-2",
+        "treatment" : "Reference",
+        "name" : "Deering Estate - Miami Dade County",
+        "lat" : 25.62602,
+        "long_" : -80.308520000000001,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 153,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.451379999999972,
+          25.558550000000025
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 153,
+        "city" : "Miami",
+        "id" : "MIA-REF-3",
+        "treatment" : "Reference",
+        "name" : "Castellow Hammock Preserve & Nature Center",
+        "lat" : 25.55855,
+        "long_" : -80.45138,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 154,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.532209999999964,
+          25.486600000000067
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 154,
+        "city" : "Miami",
+        "id" : "MIA-REF-4",
+        "treatment" : "Reference",
+        "name" : "Pine Ridge Sanctuary",
+        "lat" : 25.486599999999999,
+        "long_" : -80.532210000000006,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 155,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.260269999999934,
+          25.721520000000055
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 155,
+        "city" : "Miami",
+        "id" : "MIA-W-1",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 25.721520000000002,
+        "long_" : -80.260270000000006,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 156,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.370489999999961,
+          25.653800000000047
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 156,
+        "city" : "Miami",
+        "id" : "MIA-W-2",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 25.6538,
+        "long_" : -80.370490000000004,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 157,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.343739999999968,
+          25.604960000000062
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 157,
+        "city" : "Miami",
+        "id" : "MIA-W-3",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 25.604959999999998,
+        "long_" : -80.343739999999997,
+        "pi_contact" : "Jim Heffernan"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 158,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -80.414499999999975,
+          25.658540000000073
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 158,
+        "city" : "Miami",
+        "id" : "MIA-W-4",
+        "treatment" : "Wildlife",
+        "name" : "Residential",
+        "lat" : 25.658539999999999,
+        "long_" : -80.414500000000004,
+        "pi_contact" : "Jim Heffernan"
+      }
+    }
+  ]
+}
