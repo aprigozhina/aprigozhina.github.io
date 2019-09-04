@@ -1,3 +1,6 @@
+/* This file contains styles and properties for HTML code */
+
+/* The map placeholder */
 #minnesota_sites {
   height: 600px;
   width: 100%;
@@ -7,7 +10,7 @@
 
 /* A whole page */
 body {
-  padding-top: 3.5rem
+  padding-top: 3rem
 }
 /* All cells in all tables */
 td {
