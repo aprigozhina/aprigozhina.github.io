@@ -147,4 +147,4 @@ let onEachFeature = function (feature, layer) {
 // }
 
 //L.control.layers(basemaps).addTo(myMap)
-L.control.attribution().addTo(myMap)
+//L.control.attribution().addTo(myMap)
