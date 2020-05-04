@@ -77,11 +77,13 @@ let onEachFeature = function (feature, layer) {
 			let censusTract = feature.properties.CensusTrac
 			let blockGroupName = feature.properties.BlockGroup
 			let totalPop = feature.properties.Population
+			let infected = Math.round(feature.properties.I1)
 				layer.bindPopup(
 				parish +
 				'<br>' + censusTract +
 				'<br>' + blockGroupName +
-				'<br>Total Population: ' + totalPop
+				'<br>Total Population: ' + totalPop +
+				'<br><b>Number of infected: </b>' + infected
 				)
 		blockGroupsLayer.addLayer(layer)
  }
@@ -116,11 +118,13 @@ let onEachFeature = function (feature, layer) {
  			let censusTract = feature.properties.CensusTrac
  			let blockGroupName = feature.properties.BlockGroup
  			let totalPop = feature.properties.Population
+			let infected = Math.round(feature.properties.I100)
  				layer.bindPopup(
  				parish +
  				'<br>' + censusTract +
  				'<br>' + blockGroupName +
- 				'<br>Total Population: ' + totalPop
+ 				'<br>Total Population: ' + totalPop +
+				'<br><b>Number of infected: </b>' + infected
  				)
  		blockGroupsLayer2.addLayer(layer)
   }
