@@ -1,0 +1,18 @@
+#map {
+  height: 500px;
+  width: 700px
+}
+
+#map2 {
+  height: 500px;
+  width: 700px
+}
+
+#mapContainer {
+  height: auto;
+  width: auto
+}
+#title {
+  font-size: 30px;
+  color: #3360A3
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Page title -->
+    <title>EBR</title>
+    <!-- Style link and files -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.control.min.css" />
+    <link rel="stylesheet" href="ebr.css">
+    <!-- Insert page icon -->
+    <link rel="shortcut icon" type="png" href="favicon.png">
+  </head>
+  <body>
+
+    <!-- Map -->
+    <table id="mapContainer">
+      <tr>
+        <td><div id="title">Model of Epidemic Spread</div></td>
+      </tr>
+      <tr>
+        <td>Day 1</td>
+        <td>Day 100</td>
+      </tr>
+      <tr>
+        <td><div id="map"></div></td>
+        <td><div id="map2"></div></td>
+      </tr>
+    </table>
+
+    <!-- Legend, part 2. Households Income Choropleth Map -->
+    <div class="legend">
+      <div class="tableName"><strong>Infected per 1000 people</strong></div>
+      <table>
+        <tbody>
+          <tr>
+            <td class="leftCol">
+              <svg width="36" height="28">
+                <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#ffffb2" />
+              </svg>
+            </td>
+            <td class="rightCol">Less than 40</td>
+            <td class="leftCol">
+              <svg width="36" height="28">
+                <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#fecc5c" />
+              </svg>
+            </td>
+            <td class="rightCol">From 41 to 65</td>
+            <td class="leftCol">
+              <svg width="36" height="28">
+                <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#fd8d3c" />
+              </svg>
+            </td>
+            <td class="rightCol">From 66 to 100</td>
+            <td class="leftCol">
+              <svg width="36" height="28">
+                <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#f03b20" />
+              </svg>
+            </td>
+            <td class="rightCol">From 101 to 150</td>
+            <td class="leftCol">
+              <svg width="36" height="28">
+                <rect x="2" y="6" width="32" height="18" stroke="#808B96" stroke-width="1" fill="#bd0026" />
+              </svg>
+            </td>
+            <td class="rightCol">From 151 to 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  <!-- JS link and files -->
+    <!-- jQuery library; JSON plug-in -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Leaflet library -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iso8601-js-period@0.2.1/iso8601.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-timedimension@1.1.1/dist/leaflet.timedimension.min.js"></script>
+    <script src="ebr.js"> </script>
+  </body>
+</html>
