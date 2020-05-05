@@ -57,6 +57,7 @@ jQuery.getJSON(bgUrl, function (data) {
 				if (infected < 100) { baseColor = '#fd8d3c' }
 				if (infected < 65) { baseColor = '#fecc5c' }
 				if (infected < 40) { baseColor = '#ffffb2' }
+				if (infected === 0) { baseColor = '#e5f5f9' }
 						return {
 							fillColor: baseColor,
 							color: '#808B96',
@@ -98,6 +99,7 @@ let onEachFeature = function (feature, layer) {
  				if (infected < 100) { baseColor = '#fd8d3c' }
  				if (infected < 65) { baseColor = '#fecc5c' }
  				if (infected < 40) { baseColor = '#ffffb2' }
+				if (infected === 0) { baseColor = '#e5f5f9' }
  						return {
  							fillColor: baseColor,
  							color: '#808B96',
