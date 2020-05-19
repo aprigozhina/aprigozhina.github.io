@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebMap 101</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+    <link rel="stylesheet" href="./css/mexico.css">
+  </head>
+  <body>
+    <div id="header" class="col-md-12">
+      <h1 class="text-center">Mexico City</h1>
+    </div>
+    <div class="row">
+      <div id="side_panel" class="col-md-3">
+        <h1 class="text-center">Attractions</h1>
+        <button id="zoomToZocalo" class="form-control btn-primary">Zocalo</button>
+      </div>
+      <div id="mapdiv" class="col-md-9"></div>
+    </div>
+    <div id="footer" class="col-md-12">
+      <h4 id="map_coords" class="text-center">Latitude: 19.4 Longitude: -99.1 Zoom Level: 11</h4>
+      <h4 class="text-center">&copy;2016 <a href="http://millermountain.com">Miller Mountain LLC</a></h4>
+    </div>
+    <!-- jQuery library; JSON plug-in -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Leaflet library -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="./js/mexico.js"> </script>
+  </body>
+</html>
