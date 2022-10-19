@@ -182,7 +182,7 @@ let onEachFeatureRequests = function (feature, layer) {
     '<br><b>Коментар волонтера: </b>' + requestComment +
     '<br><b>Досвід допомоги: </b>' + requestPatronizedExperience
   )
-  regionGroup.addLayer(layer)
+  requestGroup.addLayer(layer)
 }
 
 // add legend
