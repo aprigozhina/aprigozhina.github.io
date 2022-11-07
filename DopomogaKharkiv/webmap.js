@@ -70,13 +70,13 @@ function onEachFeature (feature, layer) {
 }
 function highlightFeature (e) {
   let layer = e.target
-  // layer.setStyle({
-  //   weight: 2,
-  //   color: '#717D7E',
-  //   fillOpacity: 0.7
-  // })
+  layer.setStyle({
+    weight: 2,
+    color: '#6867F1',
+    fillOpacity: 0.3
+  })
   // if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-  // layer.bringToFront()
+  //   layer.bringToFront()
   // }
   info.update(layer.feature.properties)
 }
@@ -140,30 +140,40 @@ let statusNotActive = {
 //   iconUrl: 'https://aprigozhina.github.io/LouisianaLingvo/Modals/nono.png',
 //   iconSize: [16, 16]
 // })
+let requestsAll
 
-jQuery.getJSON(requestURL, function (data) {
-  requestsAll = L.geoJson(data, {
-    onEachFeature: onEachFeatureRequests,
-    pointToLayer: function (feature, latlng) {
-      let markerType = feature.properties.status
-      if (markerType === 'В роботі') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Зроблено') { return L.circleMarker(latlng, statusDone) }
-      if (markerType === 'Не дозвон') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Не актуально') { return L.circleMarker(latlng, statusNotActive) }
-      if (markerType === 'Виконано запит з їжі') { return L.circleMarker(latlng, statusDone) }
-      if (markerType === 'Виконано запит з ліків') { return L.circleMarker(latlng, statusDone) }
-      if (markerType === 'Частково виконано запит з ліків') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Зроблено частково') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Замовлено ліки') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Замовлена частина ліків') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Потребує повтору') { return L.circleMarker(latlng, statusDone) }
-      if (markerType === 'Відмова') { return L.circleMarker(latlng, statusNotActive) }
-      if (markerType === 'В роботі, виконано запит з їжі') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'В роботі, виконано запит з ліків') { return L.circleMarker(latlng, statusActive) }
-      if (markerType === 'Актуально') { return L.circleMarker(latlng, statusActive) }
+function addRequestsToMap (jsonURL = requestURL) {
+  jQuery.getJSON(requestURL, function (data) {
+    requestsAll = L.geoJson(data, {
+      onEachFeature: onEachFeatureRequests,
+      pointToLayer: function (feature, latlng) {
+        let markerType = feature.properties.status
+        if (markerType === 'В роботі') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Зроблено') { return L.circleMarker(latlng, statusDone) }
+        if (markerType === 'Не дозвон') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Не актуально') { return L.circleMarker(latlng, statusNotActive) }
+        if (markerType === 'Виконано запит з їжі') { return L.circleMarker(latlng, statusDone) }
+        if (markerType === 'Виконано запит з ліків') { return L.circleMarker(latlng, statusDone) }
+        if (markerType === 'Частково виконано запит з ліків') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Зроблено частково') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Замовлено ліки') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Замовлена частина ліків') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Потребує повтору') { return L.circleMarker(latlng, statusDone) }
+        if (markerType === 'Відмова') { return L.circleMarker(latlng, statusNotActive) }
+        if (markerType === 'В роботі, виконано запит з їжі') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'В роботі, виконано запит з ліків') { return L.circleMarker(latlng, statusActive) }
+        if (markerType === 'Актуально') { return L.circleMarker(latlng, statusActive) }
       // pane: 'markers'
-    }
-  }).addTo(requestGroup)
+      }
+    }).addTo(requestGroup)
+  })
+}
+
+addRequestsToMap(requestURL)
+
+document.getElementById('updateButton').addEventListener('click', function (e) {
+  requestGroup.removeLayer(requestsAll)
+  addRequestsToMap(requestURL)
 })
 
 // add pop-ups к слою запросов
@@ -198,6 +208,42 @@ let onEachFeatureRequests = function (feature, layer) {
 // }
 
 // legend.addTo(myMap)
+let lyrSearch
+
+function returnRequestByID (id) {
+  let arLayers = requestGroup.getLayers()
+  for (let i = 0; i < arLayers.length - 1; i++) {
+    let featureID = arLayers[i].feature.properties.requestId
+    console.log(featureID)
+    console.log(arLayers.length)
+    if (featureID == id) {
+      return arLayers[i]
+    }
+  }
+  return false
+}
+$('#btnFindProject').click(function () {
+  let id = $('#txtFindProject').val()
+  let lyr = returnRequestByID(id)
+  if (lyr) {
+    if (lyrSearch) {
+      lyrSearch.remove()
+    }
+    lyrSearch = L.geoJSON(lyr.toGeoJSON(), { style: { color: 'red', weight: 10, opacity: 0.5 } }).addTo(myMap)
+    //myMap.getBounds().contains(requestGroup.getLatLng())
+    let att = lyr.feature.properties
+    $('#divProjectData').html(
+      '<h4 class="text-center">Attributes</h4>' +
+      '<h5>Номер запиту: ' + att.requestId +
+      '<br>Статус: ' + att.status +
+      '<br>Адрес: ' + att.requestAddress +
+      '<br>Текст запиту: <br>' + att.requestText + '</h5>'
+    )
+  } else {
+    $('#divProjectError').html('**** Project ID is not found ****')
+  }
+})
+
 
 // add layer control
 let baseLayers = {
