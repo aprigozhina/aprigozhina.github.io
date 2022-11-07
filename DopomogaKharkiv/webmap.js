@@ -208,6 +208,8 @@ let onEachFeatureRequests = function (feature, layer) {
 // }
 
 // legend.addTo(myMap)
+
+// ******* SEARCH box ********
 let lyrSearch
 
 function returnRequestByID (id) {
@@ -230,7 +232,7 @@ $('#btnFindProject').click(function () {
       lyrSearch.remove()
     }
     lyrSearch = L.geoJSON(lyr.toGeoJSON(), { style: { color: 'red', weight: 10, opacity: 0.5 } }).addTo(myMap)
-    //myMap.getBounds().contains(requestGroup.getLatLng())
+    // myMap.getBounds().contains(requestGroup.getLatLng())
     let att = lyr.feature.properties
     $('#divProjectData').html(
       '<h4 class="text-center">Attributes</h4>' +
